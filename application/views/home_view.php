@@ -1,13 +1,57 @@
-<!-- <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/.png" alt=""> -->
+<div class="home">
+    <div class="container-fluid logo">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logo-cn.png" alt="Corrida Cartoon">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid a-corrida">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5 padding-off box-1">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-1.png" alt="Corrida Cartoon">
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-7 padding-off box-2">
+                <p>
+                    A CORRIDA<br>
+                    CARTOON<br>
+                    ESTÁ DE VOLTA!<br>
+                    <span>O JEITO MAIS<br>
+                        DIVERTIDO</span> DA SUA<br>
+                    MARCA INTERAGIR!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid video">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                <p>100% DIGITAL! 100% SEGURA!</p>
+                <p>200% ENGAJADA COM NOSSO PÚBLICO!</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                <video width="100%" height="auto" controls>
+                    <source src="<?= base_url(); ?>assets/video/brasileirao.mp4" type="video/mp4">
+                    <source src="<?= base_url(); ?>assets/video/brasileirao.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
 
 
 
 <!-- 
-    <video width="100%" height="auto" controls>
-                <source src="<?= base_url(); ?>assets/video/brasileirao.mp4" type="video/mp4">
-                <source src="<?= base_url(); ?>assets/video/brasileirao.ogg" type="video/ogg">
-                Your browser does not support the video tag.
-            </video> 
+
 -->
 
 
@@ -57,7 +101,7 @@
                 </div>
             </div>
         </div> -->
-        
+
     </div>
 </div>
 
