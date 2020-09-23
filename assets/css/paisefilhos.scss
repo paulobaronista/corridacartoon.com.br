@@ -1,0 +1,127 @@
+.paisefilhos {
+    margin-bottom: 20px;
+    .box-1 {
+        background-color: #554c9b;
+
+        img {
+            margin-bottom: -69px;
+        }
+
+        p {
+            font-family: 'VAG Rounded Std';
+            font-weight: 900;
+            font-style: normal;
+            color: #f4e600;
+            font-size: 55px;
+            line-height: 60px;
+            padding-top: 13%;
+            padding-left: 50px;
+            letter-spacing: 1px;
+
+            span {
+                color: #6fc9ea;
+            }
+        }
+    }
+    .box-2 {
+
+        p {
+            font-family: 'VAG Rounded Std';
+            font-weight: 900;
+            font-style: normal;
+            color: #ff0059;
+            font-size: 53px;
+            line-height: 63px;
+            padding-top: 40%;
+            letter-spacing: 1px;
+            padding-left: 5%;
+        }
+    }
+}
+
+
+/* Extra Small */
+@media(max-width:767px) {
+    .paisefilhos {
+        margin-bottom: 10px;
+        .box-1 {
+    
+            img {
+                margin-bottom: -27px;
+            }
+    
+            p {
+                font-size: 13px;
+                line-height: 18px;
+                padding-top: 18%;
+                padding-left: 15px;
+            }
+        }
+        .box-2 {
+
+            p {
+                font-size: 15px;
+                line-height: 20px;
+                padding-top: 19%;
+                padding-left: 10%;
+            }
+        }
+    }
+}
+
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {
+    .paisefilhos {
+        .box-1 {
+    
+            img {
+                margin-bottom: -46px;
+            }
+    
+            p {
+                font-size: 30px;
+                line-height: 33px;
+                padding-top: 20%;  
+                padding-left: 15px;              
+            }
+        }
+        .box-2 {
+
+            p {
+                font-size: 30px;
+                line-height: 35px;
+                padding-top: 22%;
+                padding-left: 10%;
+            }
+        }
+    }
+}
+
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {
+    .paisefilhos {
+        .box-1 {
+    
+            img {
+                margin-bottom: -51px;
+            }
+    
+            p {
+                font-size: 45px;
+                line-height: 45px;
+                padding-top: 13%;           
+            }
+        }
+        .box-2 {
+
+            p {
+                font-size: 40px;
+                line-height: 45px;
+                padding-top: 24%;
+                padding-left: 10%;
+            }
+        }
+    }
+}

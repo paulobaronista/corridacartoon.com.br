@@ -40,8 +40,82 @@
     </div>
 </div>
 
+<div class="phygital">
+    <div class="container-fluid box-1">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5 padding-off">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-2.png" alt="Corrida Cartoon">
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-7 padding-off">
+                <p>
+                    NOSSA CORRIDA<br>
+                    "PHYGITAL"<br>
+                    ACONTECE DE<br>
+                    <span>29 DE NOVEMBRO<br>
+                        A 27 DE DEZEMBRO!</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid box-2">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 padding-off">
+                <p>
+                    TRAGA SUA MARCA<br>
+                    PARA FAZER PARTE<br>
+                    DESSE PROJETO INÉDITO: <br>
+                    <span>
+                        VAMOS LEVAR PARA<br>
+                        NOSSOS FÃS A<br>
+                        EXPERIÊNCIA DE<br>
+                        CORREREM E SE<br>
+                        DIVERTIREM DENTRO<br>
+                        DE SUAS CASAS!</span>
+                </p>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 padding-off">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-3.png" alt="Corrida Cartoon">
+            </div>
+        </div>
+    </div>
+</div>
 
-
+<div class="paisefilhos">
+    <div class="container-fluid box-1">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5 padding-off">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-4.png" alt="Corrida Cartoon">
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-7 padding-off">
+                <p>
+                    PAIS E FILHOS TERÃO<br>
+                    A CHANCE DE<br>
+                   <span>JOGAREM, REALIZAREM<br> 
+                    ATIVIDADES FÍSICAS<br>
+                    E BRINCAREM JUNTOS</span><br>
+                    NA CIDADE CARTOON!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid box-2">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5 padding-off">
+                <p>
+                    E O MELHOR:<br> 
+                    SUA MARCA PODE<br> 
+                    TER UM ESPAÇO<br> 
+                    100% CUSTOMIZADO<br> 
+                    DENTRO DESSA<br> 
+                    CIDADE INCRÍVEL!
+                </p>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7 padding-off">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-5.png" alt="Corrida Cartoon">
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
