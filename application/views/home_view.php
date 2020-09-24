@@ -16,14 +16,14 @@
                     A CORRIDA<br>
                     CARTOON<br>
                     ESTÁ DE VOLTA!<br>
-                    <span>O JEITO MAIS<br>
-                        DIVERTIDO</span> DA SUA<br>
-                    MARCA INTERAGIR!
+                    <span>DO JEITO MAIS<br>
+                        DIVERTIDO</span> DE<br>
+                    ANUNCIAR SUA<br> MARCA!
                 </p>
             </div>
         </div>
     </div>
-    <div class="container-fluid video">
+    <!-- <div class="container-fluid video">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
                 <p>100% DIGITAL! 100% SEGURA!</p>
@@ -35,6 +35,21 @@
                     <source src="<?= base_url(); ?>assets/video/brasileirao.ogg" type="video/ogg">
                     Your browser does not support the video tag.
                 </video>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container-fluid digital">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 padding-off">
+                <p><span>100% DIGITAL!<br>
+                        100% SEGURA!<br>
+                        200% ENGAJADA COM NOSSO PÚBLICO!<br><br></span>
+                    E O MELHOR DE TUDO EM UM AMBIENTE SEGURO<br>
+                    PARA AS CRIANÇAS, PARA OS PAIS E PARA SUA MARCA!</p>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 padding-off">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-11.png" alt="Corrida Cartoon">
             </div>
         </div>
     </div>
@@ -87,14 +102,12 @@
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-4.png" alt="Corrida Cartoon">
             </div>
             <div class="col-xs-6 col-sm-6 col-md-7 col-lg-7 padding-off">
-                <p>
-                    PAIS E FILHOS TERÃO<br>
-                    A CHANCE DE<br>
-                   <span>JOGAREM, REALIZAREM<br> 
-                    ATIVIDADES FÍSICAS<br>
-                    E BRINCAREM JUNTOS</span><br>
-                    NA CIDADE CARTOON!
-                </p>
+                <p>Pais e filhos terão<br>
+                    a chance de<br>
+                    <span>jogar, realizar<br>
+                        atividades físicas<br>
+                        e brincar juntos</span><br>
+                    na Cidade Cartoon.</p>
             </div>
         </div>
     </div>
@@ -102,11 +115,11 @@
         <div class="row">
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5 padding-off">
                 <p>
-                    E O MELHOR:<br> 
-                    SUA MARCA PODE<br> 
-                    TER UM ESPAÇO<br> 
-                    100% CUSTOMIZADO<br> 
-                    DENTRO DESSA<br> 
+                    E O MELHOR:<br>
+                    SUA MARCA PODE<br>
+                    TER UM ESPAÇO<br>
+                    100% CUSTOMIZADO<br>
+                    DENTRO DESSA<br>
                     CIDADE INCRÍVEL!
                 </p>
             </div>
@@ -117,17 +130,140 @@
     </div>
 </div>
 
+<div class="suamarca">
+    <div class="container-fluid box-1">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5 padding-off">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-6.png" alt="Corrida Cartoon">
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-7 padding-off">
+                <p class="txt-1">SUA MARCA TAMBÉM<br>
+                    PODERÁ ESTAR PRESENTE:</p>
 
+                <p class="txt-2">
+                    - NO KIT DO CORREDOR<br>
+                    - EM JOGOS CUSTOMIZADOS<br>
+                    - EM ATIVIDADES PATROCINADAS<br>
+                    - NAS PLATAFORMAS DIGITAIS<br>
+                    - NA TV E NAS NOSSAS REDES SOCIAIS<br>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid box-2">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5 padding-off">
+                <p class="txt-1">
+                    Devido ao<br>
+                    isolamento social,<br>
+                    <span>a busca por eventos<br>
+                        digitais aumentou<br>
+                        + 1100%, se comparada<br>
+                        ao mesmo período<br>
+                        do ano passado<sup>*</sup>.</span>
+                </p>
+                <p class="txt-2">
+                    E "CORRIDA VIRTUAL"<br>
+                    é um dos termos mais<br>
+                    buscados na internet.
+                </p>
+                <p class="txt-3">
+                    *Fonte: Portal Radar
+                </p>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7 padding-off">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-7.png" alt="Corrida Cartoon">
+            </div>
+        </div>
+    </div>
+</div>
 
+<div class="cn">
+    <div class="container-fluid box-1">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5 padding-off">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-8.png" alt="Corrida Cartoon">
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-7 padding-off">
+                <p>
+                    AH SÓ PARA LEMBRAR:<br>
+                    O CARTOON NETWORK<br> É O CANAL FAVORITO<br>
+                    DAS CRIANÇAS HÁ 7 ANOS CONSECUTIVOS<sup>*</sup><br>
+                    <span>E O CANAL DE PAYTV<br> + ASSISTIDO PELAS<br> CRIANÇAS
+                        E PELOS<br> ADOLESCENTES<sup>**</sup></span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid box-2">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5 padding-off">
+                <p class="txt-01">
+                    SOMOS UMA MARCA<br>
+                    MULTIPLATAFORMA COM<br> 
+                    EXPERIÊNCIAS ÚNICAS PARA<br>
+                    TODOS OS FÃS.<br>
 
+                </p>
+                <p class="txt-02">
+                    CONTEÚDOS QUE ALCANÇAM<br>
+                    + <span>23,4</span> MM DE PESSOAS MÊS
+                </p>
+                <div class="col-xs-12 hidden-xs">
+                    <img class="img-responsive icone" src="<?= base_url(); ?>assets/images/icones.png" alt="Icones">
+                </div>
+                <div class="col-xs-12 visible-xs">
+                    <img class="img-responsive icone" src="<?= base_url(); ?>assets/images/icones-mobile.png" alt="Icones">
+                </div>
+                <p class="txt-03">
+                    NAS REDES SOCIAIS<br>
+                    O SUCESSO É IGUAL!<br>
+                    + DE <span>638</span> MIL INTERAÇÕES/MÊS<sup>**</sup><br>
+                    + DE <span>2,4</span> MM DE VIEWS<sup>**</sup>
+                </p>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7 padding-off">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-9.png" alt="Corrida Cartoon">
+            </div>
+        </div>
+    </div>
+</div>
 
+<div class="container fonte">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <p>* Fonte: Kantar IBOPE Media Brasil. 15 Mercados. Jan a Jun de 2014 a 2020. Base com TV Paga: Crianças 4 a 11 anos
+                (3.209.100)</p>
 
+            <p>** Fontes: Kantar IBOPE Media Brasil. 15 Mercados. Jun’20. Cov%. Base TV Paga: Pessoas 4+ anos (26.344.500 /
+                univ. proj.: 42.308.835).
+                Considerando 15.2M de domicílios assinantes (Anatel – Mai’20) e 3,02 pessoas por domicílio ; Kantar
+                IBOPE Media Brasil. 15 Mercados.
+                Abr a Jun ‘20. Rat%. Bases com TV Paga: Crianças 4 a 11 anos (1.465.100) e Crianças 12 a 17 anos
+                (2.460.800) ; Social Bakers. Jun’20</p>
+        </div>
+    </div>
+</div>
 
-
-<!-- 
-
--->
-
+<div class="curtiu">
+    <div class="container-fluid box-1">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5 padding-off">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-10.png" alt="Corrida Cartoon">
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-7 padding-off">
+                <p>
+                    CURTIU?<br> 
+                    ESTÁ PRONTO PARA CONECTAR SUA MARCA COM O BRASIL TODO?
+                </p>
+            </div>
+        </div>
+        <p>
+            CONHEÇA O PROJETO COMERCIAL E SAIBA<br>
+            MAIS DETALHES DESTA GRANDE OPORTUNIDADE!
+        </p>
+    </div>
+</div>
 
 
 

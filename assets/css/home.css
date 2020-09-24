@@ -12,10 +12,10 @@
   font-family: 'VAG Rounded Std';
   font-weight: 900;
   font-style: normal;
-  color: #f4e600;
+  color: #f9e700;
   font-size: 60px;
   line-height: 65px;
-  padding-top: 11%;
+  padding-top: 7%;
   padding-left: 50px;
   letter-spacing: 1px;
 }
@@ -42,6 +42,26 @@
 
 .home .video video {
   margin-top: 30px;
+}
+
+.home .digital {
+  background-color: #ff0059;
+}
+
+.home .digital p {
+  font-family: 'VAG Rounded Std';
+  font-weight: 900;
+  font-style: normal;
+  color: #f9e700;
+  font-size: 50px;
+  line-height: 55px;
+  padding-top: 15%;
+  letter-spacing: 1px;
+  padding-left: 7%;
+}
+
+.home .digital p span {
+  color: #6fc9ea;
 }
 
 /* Extra Small */
@@ -71,6 +91,12 @@
   .home .video video {
     margin-top: 10px;
   }
+  .home .digital p {
+    font-size: 12px;
+    line-height: 14px;
+    padding-top: 14%;
+    padding-left: 7%;
+  }
 }
 
 /* Small */
@@ -84,6 +110,12 @@
     font-size: 35px;
     line-height: 40px;
   }
+  .home .digital p {
+    font-size: 23px;
+    line-height: 27px;
+    padding-top: 21%;
+    padding-left: 7%;
+  }
 }
 
 /* Medium */
@@ -96,6 +128,12 @@
   .home .video p {
     font-size: 35px;
     line-height: 40px;
+  }
+  .home .digital p {
+    font-size: 33px;
+    line-height: 38px;
+    padding-top: 21%;
+    padding-left: 7%;
   }
 }
 /*# sourceMappingURL=home.css.map */
