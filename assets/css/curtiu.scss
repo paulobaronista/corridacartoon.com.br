@@ -1,21 +1,149 @@
 .curtiu {
-    background-color: #ff0059;
+    margin-bottom: 20px;
+
+    .box-1 {
+        background-color: #ff0059;
+        padding-top: 20px;
+
+        img {
+            margin-bottom: -65px;
+        }
+
+        p {
+            font-family: 'VAG Rounded Std';
+            font-weight: 900;
+            font-style: normal;
+            color: #6fc9ea;
+            font-size: 65px;
+            line-height: 80px;
+            letter-spacing: 1px;
+            padding-left: 8%;
+            padding-top: 14%;
+
+            span {
+                color: #f9e700;
+            }
+        }
+    }
+
+    .box-2 {
+        padding-top: 100px;
+
+        p {
+            font-family: 'VAG Rounded Std';
+            font-weight: 900;
+            font-style: normal;
+            color: #ff0059;
+            font-size: 45px;
+            line-height: 50px;
+            letter-spacing: 1px;
+            padding-left: 8%;
+        }
+    }
 }
+
+
+
+
 
 
 /* Extra Small */
 @media(max-width:767px) {
+    .curtiu {
+        margin-bottom: 10px;
 
+        .box-1 {
+            padding-top: 10px;
+
+            img {
+                margin-bottom: -21px;
+            }
+
+            p {
+                font-size: 17px;
+                line-height: 22px;
+                padding-left: 8%;
+                padding-top: 25%;
+
+            }
+        }
+
+        .box-2 {
+            padding-top: 40px;
+
+            p {
+                font-size: 15px;
+                line-height: 20px;
+                padding-left: 0;
+            }
+        }
+    }
 }
 
 
 /* Small */
 @media(min-width:768px) and (max-width:991px) {
-    
+    .curtiu {
+        margin-bottom: 10px;
+
+        .box-1 {
+            padding-top: 10px;
+
+            img {
+                margin-bottom: -21px;
+            }
+
+            p {
+                font-size: 40px;
+                line-height: 50px;
+                padding-left: 8%;
+                padding-top: 25%;
+
+            }
+        }
+
+        .box-2 {
+            padding-top: 40px;
+
+            p {
+                font-size: 30px;
+                line-height: 40px;
+                padding-left: 0;
+            }
+        }
+    }
 }
 
 
 /* Medium */
 @media(min-width:992px) and (max-width:1199px) {
-   
+    .curtiu {
+        margin-bottom: 10px;
+
+        .box-1 {
+            padding-top: 10px;
+
+            img {
+                margin-bottom: -21px;
+            }
+
+            p {
+                font-size: 60px;
+                line-height: 65px;
+                padding-left: 8%;
+                padding-top: 14%;
+
+            }
+        }
+
+        .box-2 {
+            padding-top: 80px;
+
+            p {
+                font-size: 40px;
+                line-height: 50px;
+                padding-left: 0;
+            }
+        }
+    }
 }

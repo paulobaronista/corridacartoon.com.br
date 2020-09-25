@@ -7,7 +7,7 @@ class Home extends CI_Controller{
         parent::__construct();
     }
     public function index(){
-        $data['title'] = '';
+        $data['title'] = 'FESTIVAL CORRIDA CARTOON 10 ANOS';
         $data['description'] = '';
         $data['keywords'] = '';
         $menu['contato'] = 'active';
@@ -21,7 +21,7 @@ class Home extends CI_Controller{
 
     }
     public function politicadeprivacidade(){
-        $data['title'] = '';
+        $data['title'] = 'FESTIVAL CORRIDA CARTOON 10 ANOS';
         $data['description'] = '';
         $data['keywords'] = '';
         $menu['politicadeprivacidade'] = 'active';
@@ -34,7 +34,7 @@ class Home extends CI_Controller{
 		$this->load->view('html_footer');
     }
     public function politicadecookies(){
-        $data['title'] = '';
+        $data['title'] = 'FESTIVAL CORRIDA CARTOON 10 ANOS';
         $data['description'] = '';
         $data['keywords'] = '';
         $menu['politicadecookies'] = 'active';

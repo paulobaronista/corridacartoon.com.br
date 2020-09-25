@@ -185,7 +185,7 @@ p {
   display: table;
   margin: 10% auto 0;
   width: 40%;
-  background-color: #00e396;
+  background-color: #f1e720;
   padding: 20px 10px;
   position: relative;
 }
@@ -203,12 +203,12 @@ p {
 }
 
 .aviso div p {
-  font-family: 'GoodOT-CondBold';
-  font-weight: bold;
+  font-family: 'VAG Rounded Std';
+  font-weight: 900;
   font-style: normal;
   font-size: 18px;
   line-height: 1.667;
-  color: #3a5646;
+  color: #ff0059;
   text-transform: uppercase;
 }
 
@@ -302,7 +302,7 @@ p {
   .home .a-corrida .box-2 p {
     font-size: 15px;
     line-height: 20px;
-    padding-top: 15%;
+    padding-top: 13%;
     padding-left: 15px;
   }
   .home .video {
@@ -643,9 +643,9 @@ p {
   }
   .suamarca .box-1 .txt-1 {
     font-size: 13px;
-    line-height: 18px;
+    line-height: 15px;
     padding-left: 15px;
-    padding-top: 16%;
+    padding-top: 13%;
   }
   .suamarca .box-1 .txt-2 {
     padding-top: 2%;
@@ -841,7 +841,7 @@ p {
   .cn .box-2 .txt-01 {
     font-size: 10px;
     line-height: 10px;
-    margin-top: 13%;
+    margin-top: 17%;
     margin-bottom: 5px;
   }
   .cn .box-2 .txt-02 {
@@ -859,7 +859,7 @@ p {
     font-size: 12px;
   }
   .fonte {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-top: 0px;
   }
   .fonte p {
@@ -960,10 +960,395 @@ p {
 }
 
 .curtiu {
+  margin-bottom: 20px;
+}
+
+.curtiu .box-1 {
   background-color: #ff0059;
+  padding-top: 20px;
+}
+
+.curtiu .box-1 img {
+  margin-bottom: -65px;
+}
+
+.curtiu .box-1 p {
+  font-family: 'VAG Rounded Std';
+  font-weight: 900;
+  font-style: normal;
+  color: #6fc9ea;
+  font-size: 65px;
+  line-height: 80px;
+  letter-spacing: 1px;
+  padding-left: 8%;
+  padding-top: 14%;
+}
+
+.curtiu .box-1 p span {
+  color: #f9e700;
+}
+
+.curtiu .box-2 {
+  padding-top: 100px;
+}
+
+.curtiu .box-2 p {
+  font-family: 'VAG Rounded Std';
+  font-weight: 900;
+  font-style: normal;
+  color: #ff0059;
+  font-size: 45px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  padding-left: 8%;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .curtiu {
+    margin-bottom: 10px;
+  }
+  .curtiu .box-1 {
+    padding-top: 10px;
+  }
+  .curtiu .box-1 img {
+    margin-bottom: -21px;
+  }
+  .curtiu .box-1 p {
+    font-size: 17px;
+    line-height: 22px;
+    padding-left: 8%;
+    padding-top: 25%;
+  }
+  .curtiu .box-2 {
+    padding-top: 40px;
+  }
+  .curtiu .box-2 p {
+    font-size: 15px;
+    line-height: 20px;
+    padding-left: 0;
+  }
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  .curtiu {
+    margin-bottom: 10px;
+  }
+  .curtiu .box-1 {
+    padding-top: 10px;
+  }
+  .curtiu .box-1 img {
+    margin-bottom: -21px;
+  }
+  .curtiu .box-1 p {
+    font-size: 40px;
+    line-height: 50px;
+    padding-left: 8%;
+    padding-top: 25%;
+  }
+  .curtiu .box-2 {
+    padding-top: 40px;
+  }
+  .curtiu .box-2 p {
+    font-size: 30px;
+    line-height: 40px;
+    padding-left: 0;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .curtiu {
+    margin-bottom: 10px;
+  }
+  .curtiu .box-1 {
+    padding-top: 10px;
+  }
+  .curtiu .box-1 img {
+    margin-bottom: -21px;
+  }
+  .curtiu .box-1 p {
+    font-size: 60px;
+    line-height: 65px;
+    padding-left: 8%;
+    padding-top: 14%;
+  }
+  .curtiu .box-2 {
+    padding-top: 80px;
+  }
+  .curtiu .box-2 p {
+    font-size: 40px;
+    line-height: 50px;
+    padding-left: 0;
+  }
+}
+
+.contato {
+  padding-bottom: 40px;
+  margin-top: 120px;
+}
+
+.contato .mail-to {
+  margin-bottom: 10px;
+}
+
+.contato .mail-to a {
+  font-family: 'VAG Rounded Std';
+  font-weight: 900;
+  font-style: normal;
+  color: #ff0059;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.contato .form-group {
+  padding: 0 1px 2px 1px;
+  margin-bottom: 0;
+}
+
+.contato .form-control {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  height: 70px;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000;
+  background-color: #fff;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.contato .form-control::-webkit-input-placeholder {
+  color: #000;
+}
+
+.contato .form-control:-ms-input-placeholder {
+  color: #000;
+}
+
+.contato .form-control::-ms-input-placeholder {
+  color: #000;
+}
+
+.contato .form-control::placeholder {
+  color: #000;
+}
+
+.contato .btn_enviar {
+  font-family: 'VAG Rounded Std';
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  line-height: 20px;
+  padding-top: 6px;
+  float: right;
+  background: #554c9b;
+  color: #f9e700;
+}
+
+.contato .logo-footer {
+  margin-top: 70px;
+}
+
+.redes {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.redes p {
+  font-family: 'VAG Rounded Std';
+  font-weight: 900;
+  font-style: normal;
+  color: #ff0059;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.redes div {
+  display: table;
+  margin: 0 auto;
+}
+
+.redes div figure {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.redes div figure a {
+  display: block;
+}
+
+.redes div figure figcaption {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 300;
+  font-style: normal;
+  color: #ff0059;
+}
+
+footer {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+footer p {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 300;
+  font-style: normal;
+  color: #000;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+footer .navbar-nav {
+  padding-bottom: 14px;
+}
+
+footer .navbar-nav li {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+footer .navbar-nav li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 300;
+  font-style: normal;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 14px;
+  border-right: 1px solid #000;
+}
+
+footer .navbar-nav li > a:focus,
+footer .navbar-nav li > a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+footer .navbar-nav li:last-child a {
+  border-right: 0px solid transparent;
+}
+
+.cookies {
+  background-color: #fff;
+  padding-top: 27px;
+  padding-bottom: 20px;
+  margin-top: 70px;
+  display: none;
+}
+
+.cookies p {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 300;
+  font-style: normal;
+  color: #000;
+  font-size: 15px;
+  line-height: 19px;
+}
+
+.cookies .btn_cookie {
+  font-family: 'VAG Rounded Std';
+  font-weight: 900;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  background: #554c9b;
+  color: #f9e700;
+  border: 0px solid transparent;
+  border-radius: 50px;
+  padding: 14px 30px 12px;
+  width: 160px;
+  text-transform: uppercase;
+  margin-top: 14px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .contato {
+    margin-top: 40px;
+    padding-bottom: 10px;
+  }
+  .contato .logo-footer {
+    margin-top: 40px;
+  }
+  .cookies {
+    padding-top: 17px;
+    margin-top: 20px;
+  }
+  .cookies .btn_cookie {
+    margin-top: 20px;
+  }
+  footer {
+    padding-bottom: 20px;
+    padding-top: 0px;
+  }
+  footer .navbar-nav li > a {
+    border-right: 0px solid transparent;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+.politica {
+  padding-bottom: 50px;
+}
+
+.politica .politica-tt {
+  background-color: #ff0059;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.politica .politica-tt h3 {
+  font-family: 'VAG Rounded Std';
+  font-weight: 900;
+  font-style: normal;
+  color: #f1e720;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.politica .politica-info {
+  margin-top: 30px;
+}
+
+.politica .politica-info p {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 300;
+  font-style: normal;
+  color: #000;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+.politica .politica-info p a {
+  color: #EC2c27;
+  text-decoration: underline;
 }
 
 /* Extra Small */
 /* Small */
 /* Medium */
+/* Large */
 /*# sourceMappingURL=style.css.map */

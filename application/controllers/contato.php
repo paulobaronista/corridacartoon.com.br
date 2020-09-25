@@ -7,7 +7,7 @@ class Contato extends CI_Controller{
         parent::__construct();
     }
     public function index(){
-        $data['title'] = '';
+        $data['title'] = 'FESTIVAL CORRIDA CARTOON 10 ANOS';
         $data['description'] = '';
         $data['keywords'] = '';
         $menu['contato'] = 'active';
@@ -18,15 +18,15 @@ class Contato extends CI_Controller{
             $email = $this->input->post('email');
             $telefone = $this->input->post('phone');
             $empresa = $this->input->post('empresa');
-            $assunto = utf8_decode('Contato enviado pelo site www.XXXX.com.br');
+            $assunto = utf8_decode('Contato enviado pelo site www.corrida10anos.com.br');
 
             $this->load->library('email');
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("contato@XXXXX.com.br","XXXX");
-            $this->email->to('contato@XXXX.com.br');
-            $this->email->cc('paulobaronista@gmail.com');
+            $this->email->from("contato@corrida10anos.com.br","FESTIVAL CORRIDA CARTOON 10 ANOS");
+            $this->email->to('contato@corrida10anos.com.br');
+            $this->email->cc('paulobaronista@gmail.com, renata@spicycomm.com.br, adsales.brasil@turner.com');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
@@ -54,7 +54,7 @@ class Contato extends CI_Controller{
     }
 
     public function obrigado(){
-        $data['title'] = '';
+        $data['title'] = 'FESTIVAL CORRIDA CARTOON 10 ANOS';
         $data['description'] = '';
         $data['keywords'] = '';
         $menu['contato'] = 'active';
@@ -68,7 +68,7 @@ class Contato extends CI_Controller{
     }
 
     public function fail(){
-        $data['title'] = '';
+        $data['title'] = 'FESTIVAL CORRIDA CARTOON 10 ANOS';
         $data['description'] = '';
         $data['keywords'] = '';
         $menu['contato'] = 'active';

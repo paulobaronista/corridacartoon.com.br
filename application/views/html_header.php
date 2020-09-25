@@ -5,8 +5,8 @@
         <title><?php echo $title; ?></title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="title" content="xxxxx" />
-        <meta name="og:title" content="xxxxx" />
+        <meta name="title" content="FESTIVAL CORRIDA CARTOON 10 ANOS" />
+        <meta name="og:title" content="FESTIVAL CORRIDA CARTOON 10 ANOS" />
         <meta name="og:description" content="xxxx" />
         <meta name="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
         <link rel="icon" href="<?= base_url(); ?>assets/images/favicon.png">
@@ -17,10 +17,10 @@
         <link rel="image_src" href="<?= base_url(); ?>assets/images/compartilhamento.png" />
         <meta name="theme-color" content="#554c9b"/>
         <!-- property (faz funcionar no linkedin) -->
-        <meta property="og:title" content="xxxxx" />
+        <meta property="og:title" content="FESTIVAL CORRIDA CARTOON 10 ANOS" />
         <meta property="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
         <meta property="xxxx" />
-        <meta property="og:url" content="https://www.xxxxx.com.br" />
+        <meta property="og:url" content="https://www.corrida10anos.com.br" />
         <!-- property (faz funcionar no linkedin) -->
         <?php
         $meta = array(
@@ -32,7 +32,7 @@
         );
         echo meta($meta);
         echo link_tag('assets/css/bootstrap.min.css');
-        echo link_tag('assets/css/style.css?v=1.3');
+        echo link_tag('assets/css/style.css?v=2.0');
         ?>
     </head>
     <body>

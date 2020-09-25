@@ -19,7 +19,7 @@ $(document).ready(function() {
 $(document).ready(function() {
     $("#close").click(function() {
         $("#aviso").hide();
-        window.location.href = "https://www.xxxxxx.com.br"
+        window.location.href = "https://www.corrida10anos.com.br"
     });
 });
 
@@ -28,16 +28,14 @@ $(function() {
     $('.email').clear();
     $('.phone').clear();
     $('.empresa').clear();
-    $('.msg').clear();
 
     $('.btn_enviar').on('click', function() {
-        var n, e, t, o, m;
+        var n, e, t, o;
         var msg = "";
         n = $('.nome').val();
         e = $('.email').val();
         t = $('.phone').val();
         o = $('.empresa').val();
-        m = $('.msg').val();
     });
 
 });

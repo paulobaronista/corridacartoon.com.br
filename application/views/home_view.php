@@ -38,7 +38,6 @@
             </div>
         </div>
     </div> -->
-
     <div class="container-fluid digital">
         <div class="row">
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 padding-off">
@@ -200,7 +199,7 @@
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5 padding-off">
                 <p class="txt-01">
                     SOMOS UMA MARCA<br>
-                    MULTIPLATAFORMA COM<br> 
+                    MULTIPLATAFORMA COM<br>
                     EXPERIÊNCIAS ÚNICAS PARA<br>
                     TODOS OS FÃS.<br>
 
@@ -253,30 +252,49 @@
             </div>
             <div class="col-xs-6 col-sm-6 col-md-7 col-lg-7 padding-off">
                 <p>
-                    CURTIU?<br> 
-                    ESTÁ PRONTO PARA CONECTAR SUA MARCA COM O BRASIL TODO?
+                    <span>CURTIU?</span><br>
+                    ESTÁ PRONTO<br>
+                    PARA CONECTAR<br>
+                    SUA MARCA COM<br>
+                    O BRASIL TODO?
                 </p>
             </div>
         </div>
-        <p>
-            CONHEÇA O PROJETO COMERCIAL E SAIBA<br>
-            MAIS DETALHES DESTA GRANDE OPORTUNIDADE!
-        </p>
+    </div>
+    <div class="container-fluid box-2">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <p>
+                    CONHEÇA O PROJETO COMERCIAL E SAIBA<br>
+                    MAIS DETALHES DESTA GRANDE OPORTUNIDADE!
+                </p>
+            </div>
+        </div>
     </div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-<div class="container">
+<div class="container contato">
     <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 text-center mail-to">
+            <a href="mailto:adsales.brasil@turner.com">adsales.brasil@turner.com</a>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 redes text-center">
+            <p>SIGA NOSSAS REDES SOCIAIS</p>
+            <div>
+                <figure>
+                    <a href="https://www.instagram.com/tntforads/" target="_blank">
+                        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/instagram.png" alt="Instagram">
+                    </a>
+                    <figcaption>Instagram</figcaption>
+                </figure>
+                <figure>
+                    <a href="https://www.linkedin.com/showcase/tnt-for-ads" target="_blank">
+                        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/linkedIn.png" alt="LinkedIn">
+                    </a>
+                    <figcaption>LinkedIn</figcaption>
+                </figure>
+            </div>
+        </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
             <form method="post" role="form" action="<?php echo base_url("contato") ?>">
                 <div class="group-form">
@@ -298,8 +316,7 @@
                 </div>
             </form>
         </div>
-
-        <!-- <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="col-xs-12 col-sm-12 col-md-12">
             <div id="cookies" class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 cookies">
                 <div class="col-xs-12 col-sm-9 col-md-9">
                     <p>
@@ -310,8 +327,10 @@
                     <a href="#" class="btn_cookie btn center-block">Aceito</a>
                 </div>
             </div>
-        </div> -->
-
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 logo-footer">
+            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logos.png" alt="Logos">
+        </div>
     </div>
 </div>
 
