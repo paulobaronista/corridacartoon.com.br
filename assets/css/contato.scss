@@ -1,6 +1,6 @@
 .contato {
     padding-bottom: 40px;
-    margin-top: 120px;
+    margin-top: 20px;
     .mail-to {
         margin-bottom: 10px;
         a {
@@ -8,8 +8,8 @@
             font-weight: 900;
             font-style: normal;
             color: #ff0059;
-            font-size: 24px;
-            line-height: 24px;
+            font-size: 35px;
+            line-height: 35px;
         }
     }
     .form-group {
@@ -138,7 +138,7 @@ footer {
     background-color: #fff;
     padding-top: 27px;
     padding-bottom: 20px;
-    margin-top: 70px;
+    margin-top: 30px;
     display: none;
     p {
         font-family: 'Helvetica Neue LT Std';
@@ -170,15 +170,21 @@ footer {
 
 @media(max-width:767px) {
     .contato {
-        margin-top: 40px;
+        margin-top: 20px;
         padding-bottom: 10px;
+        .mail-to {
+            a {
+                font-size: 25px;
+                line-height: 25px;
+            }
+        }
         .logo-footer {
             margin-top: 40px;
         }
     }
     .cookies {
         padding-top: 17px;
-        margin-top: 20px;
+        margin-top: 10px;
         .btn_cookie {
             margin-top: 20px;
         }

@@ -228,22 +228,6 @@
     </div>
 </div>
 
-<div class="container fonte">
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12">
-            <p>* Fonte: Kantar IBOPE Media Brasil. 15 Mercados. Jan a Jun de 2014 a 2020. Base com TV Paga: Crianças 4 a 11 anos
-                (3.209.100)</p>
-
-            <p>** Fontes: Kantar IBOPE Media Brasil. 15 Mercados. Jun’20. Cov%. Base TV Paga: Pessoas 4+ anos (26.344.500 /
-                univ. proj.: 42.308.835).
-                Considerando 15.2M de domicílios assinantes (Anatel – Mai’20) e 3,02 pessoas por domicílio ; Kantar
-                IBOPE Media Brasil. 15 Mercados.
-                Abr a Jun ‘20. Rat%. Bases com TV Paga: Crianças 4 a 11 anos (1.465.100) e Crianças 12 a 17 anos
-                (2.460.800) ; Social Bakers. Jun’20</p>
-        </div>
-    </div>
-</div>
-
 <div class="curtiu">
     <div class="container-fluid box-1">
         <div class="row">
@@ -265,8 +249,8 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <p>
-                    CONHEÇA O PROJETO COMERCIAL E SAIBA<br>
-                    MAIS DETALHES DESTA GRANDE OPORTUNIDADE!
+                    FALE COM NOSSOS EXECUTIVOS<br> 
+                    E CONHEÇA OS DETALHES DO PROJETO COMERCIAL
                 </p>
             </div>
         </div>
@@ -295,7 +279,7 @@
                 </figure>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
+        <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
             <form method="post" role="form" action="<?php echo base_url("contato") ?>">
                 <div class="group-form">
                     <div class="col-xs-12 col-sm-6 col-md-6 form-group">
@@ -315,7 +299,7 @@
                     </div>
                 </div>
             </form>
-        </div>
+        </div> -->
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div id="cookies" class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 cookies">
                 <div class="col-xs-12 col-sm-9 col-md-9">
@@ -344,11 +328,13 @@
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 text-center">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus neque hic
-                    corporis porro, nihil harum alias consectetur iste corrupti temporibus odio,
-                    commodi velit minus, aperiam soluta. Veniam perspiciatis aut culpa.
-                </p>
+            <p>* Fonte: Kantar IBOPE Media Brasil. 15 Mercados. Jan a Jun de 2014 a 2020. Base com TV Paga: Crianças 4 a 11 anos
+                (3.209.100). ** Fontes: Kantar IBOPE Media Brasil. 15 Mercados. Jun’20. Cov%. Base TV Paga: Pessoas 4+ anos (26.344.500 /
+                univ. proj.: 42.308.835).
+                Considerando 15.2M de domicílios assinantes (Anatel – Mai’20) e 3,02 pessoas por domicílio ; Kantar
+                IBOPE Media Brasil. 15 Mercados.
+                Abr a Jun ‘20. Rat%. Bases com TV Paga: Crianças 4 a 11 anos (1.465.100) e Crianças 12 a 17 anos
+                (2.460.800) ; Social Bakers. Jun’20</p>
             </div>
         </div>
     </div>
