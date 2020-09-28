@@ -44,7 +44,7 @@
                 <p><span>100% DIGITAL!<br>
                         100% SEGURA!<br>
                         200% ENGAJADA COM NOSSO PÚBLICO!<br><br></span>
-                    E O MELHOR DE TUDO EM UM AMBIENTE SEGURO<br>
+                    E O MELHOR DE TUDO, EM UM AMBIENTE SEGURO<br>
                     PARA AS CRIANÇAS, PARA OS PAIS E PARA SUA MARCA!</p>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 padding-off">

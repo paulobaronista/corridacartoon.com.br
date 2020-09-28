@@ -44,7 +44,7 @@
                 <p><span>100% DIGITAL!<br>
                         100% SEGURA!<br>
                         200% ENGAJADA COM NOSSO PÚBLICO!<br><br></span>
-                    E O MELHOR DE TUDO EM UM AMBIENTE SEGURO<br>
+                    E O MELHOR DE TUDO, EM UM AMBIENTE SEGURO<br>
                     PARA AS CRIANÇAS, PARA OS PAIS E PARA SUA MARCA!</p>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 padding-off">
@@ -249,7 +249,7 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <p>
-                    FALE COM NOSSOS EXECUTIVOS<br> 
+                    FALE COM NOSSOS EXECUTIVOS<br>
                     E CONHEÇA OS DETALHES DO PROJETO COMERCIAL
                 </p>
             </div>
@@ -328,13 +328,13 @@
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 text-center">
-            <p>* Fonte: Kantar IBOPE Media Brasil. 15 Mercados. Jan a Jun de 2014 a 2020. Base com TV Paga: Crianças 4 a 11 anos
-                (3.209.100). ** Fontes: Kantar IBOPE Media Brasil. 15 Mercados. Jun’20. Cov%. Base TV Paga: Pessoas 4+ anos (26.344.500 /
-                univ. proj.: 42.308.835).
-                Considerando 15.2M de domicílios assinantes (Anatel – Mai’20) e 3,02 pessoas por domicílio ; Kantar
-                IBOPE Media Brasil. 15 Mercados.
-                Abr a Jun ‘20. Rat%. Bases com TV Paga: Crianças 4 a 11 anos (1.465.100) e Crianças 12 a 17 anos
-                (2.460.800) ; Social Bakers. Jun’20</p>
+                <p>* Fonte: Kantar IBOPE Media Brasil. 15 Mercados. Jan a Jun de 2014 a 2020. Base com TV Paga: Crianças 4 a 11 anos
+                    (3.209.100). ** Fontes: Kantar IBOPE Media Brasil. 15 Mercados. Jun’20. Cov%. Base TV Paga: Pessoas 4+ anos (26.344.500 /
+                    univ. proj.: 42.308.835).
+                    Considerando 15.2M de domicílios assinantes (Anatel – Mai’20) e 3,02 pessoas por domicílio ; Kantar
+                    IBOPE Media Brasil. 15 Mercados.
+                    Abr a Jun ‘20. Rat%. Bases com TV Paga: Crianças 4 a 11 anos (1.465.100) e Crianças 12 a 17 anos
+                    (2.460.800) ; Social Bakers. Jun’20</p>
             </div>
         </div>
     </div>

@@ -7,9 +7,9 @@ class Home extends CI_Controller{
         parent::__construct();
     }
     public function index(){
-        $data['title'] = 'FESTIVAL CORRIDA CARTOON 10 ANOS';
-        $data['description'] = '';
-        $data['keywords'] = '';
+        $data['title'] = 'Festival Corrida 10 Anos Cartoon Network';
+        $data['description'] = 'A corrida Cartoon esta de volta! Do jeito mais divertido de anunciar sua marca!';
+        $data['keywords'] = 'Cartoon Network, anuncie desenho, anúncio publico infantil, publicidade infantil';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'home_view';
         $this->load->view('html_header', $data);
@@ -21,9 +21,9 @@ class Home extends CI_Controller{
 
     }
     public function politicadeprivacidade(){
-        $data['title'] = 'FESTIVAL CORRIDA CARTOON 10 ANOS';
-        $data['description'] = '';
-        $data['keywords'] = '';
+        $data['title'] = 'Festival Corrida 10 Anos Cartoon Network';
+        $data['description'] = 'A corrida Cartoon esta de volta! Do jeito mais divertido de anunciar sua marca!';
+        $data['keywords'] = 'Cartoon Network, anuncie desenho, anúncio publico infantil, publicidade infantil';
         $menu['politicadeprivacidade'] = 'active';
 		$conteudo['pagina_view'] = 'politicadeprivacidade_view';
 		$this->load->view('html_header', $data);
@@ -34,9 +34,9 @@ class Home extends CI_Controller{
 		$this->load->view('html_footer');
     }
     public function politicadecookies(){
-        $data['title'] = 'FESTIVAL CORRIDA CARTOON 10 ANOS';
-        $data['description'] = '';
-        $data['keywords'] = '';
+        $data['title'] = 'Festival Corrida 10 Anos Cartoon Network';
+        $data['description'] = 'A corrida Cartoon esta de volta! Do jeito mais divertido de anunciar sua marca!';
+        $data['keywords'] = 'Cartoon Network, anuncie desenho, anúncio publico infantil, publicidade infantil';
         $menu['politicadecookies'] = 'active';
 		$conteudo['pagina_view'] = 'politicadecookies_view';
 		$this->load->view('html_header', $data);

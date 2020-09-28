@@ -7,9 +7,9 @@ class Contato extends CI_Controller{
         parent::__construct();
     }
     public function index(){
-        $data['title'] = 'FESTIVAL CORRIDA CARTOON 10 ANOS';
-        $data['description'] = '';
-        $data['keywords'] = '';
+        $data['title'] = 'Festival Corrida 10 Anos Cartoon Network';
+        $data['description'] = 'A corrida Cartoon esta de volta! Do jeito mais divertido de anunciar sua marca!';
+        $data['keywords'] = 'Cartoon Network, anuncie desenho, anúncio publico infantil, publicidade infantil';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
 
@@ -54,9 +54,9 @@ class Contato extends CI_Controller{
     }
 
     public function obrigado(){
-        $data['title'] = 'FESTIVAL CORRIDA CARTOON 10 ANOS';
-        $data['description'] = '';
-        $data['keywords'] = '';
+        $data['title'] = 'Festival Corrida 10 Anos Cartoon Network';
+        $data['description'] = 'A corrida Cartoon esta de volta! Do jeito mais divertido de anunciar sua marca!';
+        $data['keywords'] = 'Cartoon Network, anuncie desenho, anúncio publico infantil, publicidade infantil';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
         $this->load->view('html_header', $data);
@@ -68,9 +68,9 @@ class Contato extends CI_Controller{
     }
 
     public function fail(){
-        $data['title'] = 'FESTIVAL CORRIDA CARTOON 10 ANOS';
-        $data['description'] = '';
-        $data['keywords'] = '';
+        $data['title'] = 'Festival Corrida 10 Anos Cartoon Network';
+        $data['description'] = 'A corrida Cartoon esta de volta! Do jeito mais divertido de anunciar sua marca!';
+        $data['keywords'] = 'Cartoon Network, anuncie desenho, anúncio publico infantil, publicidade infantil';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';
         $this->load->view('html_header', $data);
