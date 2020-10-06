@@ -156,7 +156,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-7 col-lg-7 box-1">
                     <p>
                         Devido ao<br>
-                        isol amento social,<br>
+                        isolamento social,<br>
                         <span>a busca por eventos<br>
                             digitais aumentou<br>
                             + 1100%, se comparada<br>
@@ -192,13 +192,14 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 box-2">
                     <p>
                         AH SÓ PARA LEMBRAR:<br>
+                        Cartoon Network<br>
                         É O CANAL FAVORITO<br>
                         DAS CRIANÇAS HÁ 7 ANOS<br>
                         CONSECUTIVOS*<br>
-                        <span>E O CANAL DE PAYTV +<br>
-                            ASSISTIDO PELAS<br>
-                            CRIANÇAS E PELOS<br>
-                            ADOLESCENTES**</span>
+                        <span>E O CANAL mais<br>
+                            ASSISTIDO da paytv<br>
+                            PELAS CRIANÇAS<br>
+                            E PELOS ADOLESCENTES*</span>
                     </p>
                 </div>
             </div>
@@ -218,10 +219,11 @@
                         COM EXPERIÊNCIAS<br>
                         ÚNICAS PARA<br>
                         TODOS OS FÃS.<br>
-                        <span>Alcança<br>
+                        <span>Alcançamos<br>
                             mensalmente<br>
-                            mais de 23.4MM<br>
-                            de pessoas</span>
+                            mais de 27.0<br>
+                            milhões<br>
+                            de pessoas*</span>
                     </p>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 box-2">
@@ -230,14 +232,14 @@
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
                         <p>
-                            NAS REDES<br>
-                            SOCIAIS<br>
-                            O SUCESSO<br>
-                            É IGUAL!<br>
-                            + DE 638 MIL<br>
-                            INTERAÇÕES/MÊS**<br>
-                            + DE 2,4 MM<br>
-                            DE VIEWS**
+                            Nas redes<br>
+                            sociais<br>
+                            o sucesso<br>
+                            é igual:<br>
+                            + de 1.1 milhões<br>
+                            de interações/mês*<br>
+                            + de 3.1 milhões<br>
+                            de views*
                         </p>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
@@ -258,11 +260,11 @@
                 </div>
                 <div class="col-xs-7 col-sm-6 col-md-6 col-lg-6 box-2">
                     <p>
-                        <span>CURTIU?</span><br>
-                        ESTÁ PRONTO<br>
+                        CURTIU?<br>
+                        <span>ESTÁ PRONTO<br>
                         PARA CONECTAR<br>
                         SUA MARCA COM<br>
-                        O BRASIL TODO?
+                        O BRASIL TODO?</span>
                     </p>
                 </div>
             </div>

@@ -730,8 +730,8 @@ p {
     background: url(../images/dt-5.png) no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 95px;
-    padding-bottom: 95px;
+    padding-top: 85px;
+    padding-bottom: 85px;
   }
   .somosMarca .box-1 p {
     font-size: 15px;
@@ -821,7 +821,7 @@ p {
   font-weight: 900;
   font-style: normal;
   text-transform: uppercase;
-  color: #ff0059;
+  color: #df0054;
   font-size: 35px;
   line-height: 45px;
 }
@@ -834,7 +834,7 @@ p {
   font-family: 'VAG Rounded Std';
   font-weight: 900;
   font-style: normal;
-  color: #ff0059;
+  color: #df0054;
   font-size: 35px;
   line-height: 35px;
 }
@@ -908,7 +908,7 @@ p {
   font-family: 'VAG Rounded Std';
   font-weight: 900;
   font-style: normal;
-  color: #ff0059;
+  color: #df0054;
   font-size: 20px;
   line-height: 20px;
   margin-bottom: 15px;
@@ -933,7 +933,7 @@ p {
   font-family: 'Helvetica Neue LT Std';
   font-weight: 300;
   font-style: normal;
-  color: #ff0059;
+  color: #df0054;
 }
 
 footer {
