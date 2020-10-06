@@ -1,0 +1,84 @@
+.digital {
+  padding-top: 40px;
+  padding-bottom: 25px;
+  background: #554c9b;
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #554c9b), color-stop(50%, #554c9b), color-stop(50%, #f4e600), color-stop(100%, #f4e600));
+  background: linear-gradient(-170deg, #554c9b 0%, #554c9b 50%, #f4e600 50%, #f4e600 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#554c9b', endColorstr='#f4e600', GradientType=1);
+}
+
+.digital p {
+  font-family: 'VAG Rounded Std';
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.digital .box-1 {
+  margin-bottom: 80px;
+}
+
+.digital .box-1 .txt-1 {
+  font-size: 35px;
+  line-height: 45px;
+  color: #f4e600;
+}
+
+.digital .box-1 .txt-2 {
+  font-size: 25px;
+  line-height: 35px;
+  color: #ffffff;
+}
+
+.digital .box-2 {
+  margin-top: 40px;
+}
+
+.digital .box-2 p {
+  font-size: 45px;
+  line-height: 55px;
+  color: #df0054;
+}
+
+.digital .box-2 p span {
+  color: #554c9b;
+}
+
+.digital .box-2 img {
+  margin-top: -30px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .digital {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    background: linear-gradient(-150deg, #554c9b 0%, #554c9b 50%, #f4e600 50%, #f4e600 100%);
+  }
+  .digital .box-1 {
+    margin-bottom: 0px;
+  }
+  .digital .box-1 .txt-1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .digital .box-1 .txt-2 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 8px;
+  }
+  .digital .box-2 {
+    margin-top: 20px;
+  }
+  .digital .box-2 p {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .digital .box-2 img {
+    margin-top: 10px;
+  }
+}
+
+/* Small */
+/* Medium */
+/*# sourceMappingURL=digital.css.map */

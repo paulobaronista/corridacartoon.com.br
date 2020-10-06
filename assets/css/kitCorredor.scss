@@ -1,0 +1,56 @@
+.kitCorredor {
+    background-color: #554c9b;
+
+    .box-1 {
+        padding-top: 60px;
+        padding-bottom: 50px;
+        p {
+            font-family: 'VAG Rounded Std';
+            font-weight: 900;
+            font-style: normal;
+            text-transform: uppercase;
+        }
+        .txt-1 {
+            font-size: 35px;
+            line-height: 35px;
+            color: #ffffff;
+            margin-bottom: 15px;
+        }
+        .txt-2 {
+            font-size: 30px;
+            line-height: 35px;
+            color: #f4e600;
+        }
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .kitCorredor {
+        .box-1 {
+            padding-top: 20px;
+            padding-bottom: 5px;
+            .txt-1 {
+                font-size: 23px;
+                line-height: 25px;
+                margin-bottom: 10px;
+            }
+            .txt-2 {
+                font-size: 18px;
+                line-height: 23px;
+            }
+        }
+        .box-2 {
+            padding-bottom: 15px;
+            img {
+                max-width: 20%;
+            }
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}

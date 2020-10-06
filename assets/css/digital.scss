@@ -1,0 +1,91 @@
+.digital {
+    padding-top: 40px;
+    padding-bottom: 25px;
+    background: rgba(85, 76, 155, 1);
+    background: -moz-linear-gradient(-45deg, rgba(85, 76, 155, 1) 0%, rgba(85, 76, 155, 1) 50%, rgba(244, 230, 0, 1) 50%, rgba(244, 230, 0, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(85, 76, 155, 1)), color-stop(50%, rgba(85, 76, 155, 1)), color-stop(50%, rgba(244, 230, 0, 1)), color-stop(100%, rgba(244, 230, 0, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(85, 76, 155, 1) 0%, rgba(85, 76, 155, 1) 50%, rgba(244, 230, 0, 1) 50%, rgba(244, 230, 0, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(85, 76, 155, 1) 0%, rgba(85, 76, 155, 1) 50%, rgba(244, 230, 0, 1) 50%, rgba(244, 230, 0, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(85, 76, 155, 1) 0%, rgba(85, 76, 155, 1) 50%, rgba(244, 230, 0, 1) 50%, rgba(244, 230, 0, 1) 100%);
+    background: linear-gradient(-170deg, rgba(85, 76, 155, 1) 0%, rgba(85, 76, 155, 1) 50%, rgba(244, 230, 0, 1) 50%, rgba(244, 230, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#554c9b', endColorstr='#f4e600', GradientType=1);
+
+    p {
+        font-family: 'VAG Rounded Std';
+        font-weight: 900;
+        font-style: normal;
+        text-transform: uppercase;
+    }
+
+    .box-1 {
+        margin-bottom: 80px;
+        .txt-1 {
+            font-size: 35px;
+            line-height: 45px;
+            color: #f4e600;
+        }
+
+        .txt-2 {
+            font-size: 25px;
+            line-height: 35px; 
+            color: #ffffff;
+        }
+    }
+
+    .box-2 {
+        margin-top: 40px;
+        p {
+            font-size: 45px;
+            line-height: 55px;
+            color: #df0054;
+            span {
+                color: #554c9b;
+            }
+        }
+        img {
+            margin-top: -30px;
+        }
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .digital {
+        padding-top: 0px;
+        padding-bottom: 10px;
+        background: linear-gradient(-150deg, rgba(85, 76, 155, 1) 0%, rgba(85, 76, 155, 1) 50%, rgba(244, 230, 0, 1) 50%, rgba(244, 230, 0, 1) 100%);
+
+
+        .box-1 {
+            margin-bottom: 0px;
+            .txt-1 {
+                font-size: 25px;
+                line-height: 30px;
+            }
+    
+            .txt-2 {
+                font-size: 20px;
+                line-height: 25px;
+                margin-top: 8px;
+            }
+        }
+    
+        .box-2 {
+            margin-top: 20px;
+            p {
+                font-size: 25px;
+                line-height: 25px;
+            }
+            img {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}

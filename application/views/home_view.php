@@ -1,261 +1,205 @@
 <div class="home">
-    <div class="container-fluid logo">
+    <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logo-cn.png" alt="Corrida Cartoon">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 logo">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logo-cartoon.png" alt="Corrida Cartoon">
             </div>
-        </div>
-    </div>
-    <div class="container-fluid a-corrida">
-        <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5 padding-off box-1">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-1.png" alt="Corrida Cartoon">
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-7 padding-off box-2">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1">
                 <p>
-                    A CORRIDA<br>
-                    CARTOON<br>
-                    ESTÁ DE VOLTA!<br>
-                    <span>DO JEITO MAIS<br>
-                        DIVERTIDO</span> DE<br>
-                    ANUNCIAR SUA<br> MARCA!
+                    A CORRIDA CARTOON ESTÁ DE VOLTA!<br>
+                    <span>O JEITO MAIS DIVERTIDO!</span><br>
+                    DE ANUNCIAR SUA MARCA!
                 </p>
             </div>
-        </div>
-    </div>
-    <!-- <div class="container-fluid video">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-                <p>100% DIGITAL! 100% SEGURA!</p>
-                <p>200% ENGAJADA COM NOSSO PÚBLICO!</p>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 video">
                 <video width="100%" height="auto" controls>
-                    <source src="<?= base_url(); ?>assets/video/brasileirao.mp4" type="video/mp4">
-                    <source src="<?= base_url(); ?>assets/video/brasileirao.ogg" type="video/ogg">
+                    <source src="<?= base_url(); ?>assets/video/Video_Corrida_CN_Digital_2020.mp4" type="video/mp4">
+                    <source src="<?= base_url(); ?>assets/video/Video_Corrida_CN_Digital_2020.ogg" type="video/ogg">
                     Your browser does not support the video tag.
                 </video>
             </div>
         </div>
-    </div> -->
-    <div class="container-fluid digital">
+    </div>
+</div>
+
+<div class="digital">
+    <div class="container">
         <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 padding-off">
-                <p><span>100% DIGITAL!<br>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off box-1">
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <p class="txt-1">
+                        100% DIGITAL!<br>
                         100% SEGURA!<br>
-                        200% ENGAJADA COM NOSSO PÚBLICO!<br><br></span>
-                    E O MELHOR DE TUDO, EM UM AMBIENTE SEGURO<br>
-                    PARA AS CRIANÇAS, PARA OS PAIS E PARA SUA MARCA!</p>
+                        200% ENGAJADA<br>
+                        COM NOSSO PÚBLICO!
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <p class="txt-2">
+                        E O MELHOR DE TUDO,<br>
+                        EM UM AMBIENTE SEGURO<br>
+                        PARA AS CRIANÇAS,<br>
+                        PARA OS PAIS<br>
+                        E PARA SUA MARCA!
+                    </p>
+                </div>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 padding-off">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-11.png" alt="Corrida Cartoon">
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="phygital">
-    <div class="container-fluid box-1">
-        <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5 padding-off">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-2.png" alt="Corrida Cartoon">
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-7 padding-off">
-                <p>
-                    NOSSA CORRIDA<br>
-                    "PHYGITAL"<br>
-                    ACONTECE DE<br>
-                    <span>29 DE NOVEMBRO<br>
-                        A 27 DE DEZEMBRO!</span>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid box-2">
-        <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 padding-off">
-                <p>
-                    TRAGA SUA MARCA<br>
-                    PARA FAZER PARTE<br>
-                    DESSE PROJETO INÉDITO: <br>
-                    <span>
-                        VAMOS LEVAR PARA<br>
-                        NOSSOS FÃS A<br>
-                        EXPERIÊNCIA DE<br>
-                        CORREREM E SE<br>
-                        DIVERTIREM DENTRO<br>
-                        DE SUAS CASAS!</span>
-                </p>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 padding-off">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-3.png" alt="Corrida Cartoon">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off box-2">
+                <div class="col-xs-12 col-sm-7 col-md-6">
+                    <p>
+                        NOSSA CORRIDA "PHYGITAL"<br>
+                        ACONTECE DE<br>
+                        <span>29 DE NOVEMBRO<br>
+                            A 27 DE DEZEMBRO!</span>
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-5 col-md-6">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-1.png" alt="Corrida Cartoon">
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="paisefilhos">
-    <div class="container-fluid box-1">
+<div class="suaMarca">
+    <div class="container">
         <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5 padding-off">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-4.png" alt="Corrida Cartoon">
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-7 padding-off">
-                <p>Pais e filhos terão<br>
-                    a chance de<br>
-                    <span>jogar, realizar<br>
-                        atividades físicas<br>
-                        e brincar juntos</span><br>
-                    na Cidade Cartoon.</p>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid box-2">
-        <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5 padding-off">
-                <p>
-                    E O MELHOR:<br>
-                    SUA MARCA PODE<br>
-                    TER UM ESPAÇO<br>
-                    100% CUSTOMIZADO<br>
-                    DENTRO DESSA<br>
-                    CIDADE INCRÍVEL!
-                </p>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7 padding-off">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-5.png" alt="Corrida Cartoon">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off">
+                <div class="col-xs-1 visible-xs visible-sm col-sm-2 col-md-3 col-lg-3 padding-off">
+                    <img class="img-responsive" src="<?= base_url(); ?>assets/images/dt-1-mobile.png" alt="Corrida Cartoon">
+                </div>
+                <div class="col-xs-1 hidden-xs hidden-sm col-sm-1 col-md-3 col-lg-3 padding-off">
+                    <img class="img-responsive" src="<?= base_url(); ?>assets/images/dt-1.png" alt="Corrida Cartoon">
+                </div>
+                <div class="col-xs-11 col-sm-10 col-md-9 col-lg-9 box-2">
+                    <p>
+                        TRAGA SUA MARCA PARA FAZER PARTE<br>
+                        DESSE PROJETO INÉDITO:<br>
+                        <span>VAMOS LEVAR PARA NOSSOS FÃS<br>
+                            A EXPERIÊNCIA DE CORREREM E SE<br>
+                            DIVERTIREM DENTRO DE SUAS CASAS!</span>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="suamarca">
-    <div class="container-fluid box-1">
+<div class="paisFilhos">
+    <div class="container">
         <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5 padding-off">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-6.png" alt="Corrida Cartoon">
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-7 padding-off">
-                <p class="txt-1">SUA MARCA TAMBÉM<br>
-                    PODERÁ ESTAR PRESENTE:</p>
-
-                <p class="txt-2">
-                    - NO KIT DO CORREDOR<br>
-                    - EM JOGOS CUSTOMIZADOS<br>
-                    - EM ATIVIDADES PATROCINADAS<br>
-                    - NAS PLATAFORMAS DIGITAIS<br>
-                    - NA TV E NAS NOSSAS REDES SOCIAIS<br>
-                </p>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 box-1">
+                    <p>
+                        PAIS<br>
+                        E FILHOS<br>
+                        TERÃO A<br>
+                        CHANCE DE<br>
+                        <span>JOGAR,<br>
+                            REALIZAR<br>
+                            ATIVIDADES<br>
+                            FÍSICAS E<br>
+                            BRINCAR<br>
+                            JUNTOS</span><br>
+                        NA CIDADE<br>
+                        CARTOON!
+                    </p>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 box-2">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
+                        <img class="img-responsive center-block cartoon-2" src="<?= base_url(); ?>assets/images/cartoon-2.png" alt="Corrida Cartoon">
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
+                        <img class="img-responsive dt-3" src="<?= base_url(); ?>assets/images/dt-3.png" alt="Corrida Cartoon">
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
+                        <p>
+                            E O MELHOR:<br>
+                            SUA MARCA PODE<br>
+                            TER UM ESPAÇO<br>
+                            100% CUSTOMIZADO<br>
+                            DENTRO DESSA<br>
+                            CIDADE INCRÍVEL!
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid box-2">
+</div>
+
+<div class="kitCorredor">
+    <div class="container">
         <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5 padding-off">
-                <p class="txt-1">
-                    Devido ao<br>
-                    isolamento social,<br>
-                    <span>a busca por eventos<br>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off">
+                <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 box-1">
+                    <p class="txt-1">SUA MARCA TAMBÉM poderá ESTAR PRESENTE:</p>
+                    <p class="txt-2"> - NO KIT DO CORREDOR<br>
+                        - EM JOGOS CUSTOMIZADOS<br>
+                        - EM ATIVIDADES PATROCINADAS<br>
+                        - NAS PLATAFORMAS DIGITAIS<br>
+                        - NA TV E NAS NOSSAS REDES SOCIAIS
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 box-2">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-3.png" alt="Corrida Cartoon">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="corridaVirtual">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
+                <div class="col-xs-6 col-sm-6 col-md-7 col-lg-7 box-1">
+                    <p>
+                        Devido ao<br>
+                        isol amento social,<br>
+                      <span>a busca por eventos<br>
                         digitais aumentou<br>
                         + 1100%, se comparada<br>
                         ao mesmo período<br>
-                        do ano passado<sup>*</sup>.</span>
-                </p>
-                <p class="txt-2">
-                    E "CORRIDA VIRTUAL"<br>
-                    é um dos termos mais<br>
-                    buscados na internet.
-                </p>
-                <p class="txt-3">
-                    *Fonte: Portal Radar
-                </p>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7 padding-off">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-7.png" alt="Corrida Cartoon">
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="cn">
-    <div class="container-fluid box-1">
-        <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5 padding-off">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-8.png" alt="Corrida Cartoon">
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-7 padding-off">
-                <p>
-                    AH SÓ PARA LEMBRAR:<br>
-                    O CARTOON NETWORK<br> É O CANAL FAVORITO<br>
-                    DAS CRIANÇAS HÁ 7 ANOS CONSECUTIVOS<sup>*</sup><br>
-                    <span>E O CANAL DE PAYTV<br> + ASSISTIDO PELAS<br> CRIANÇAS
-                        E PELOS<br> ADOLESCENTES<sup>**</sup></span>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid box-2">
-        <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5 padding-off">
-                <p class="txt-01">
-                    SOMOS UMA MARCA<br>
-                    MULTIPLATAFORMA COM<br>
-                    EXPERIÊNCIAS ÚNICAS PARA<br>
-                    TODOS OS FÃS.<br>
-
-                </p>
-                <p class="txt-02">
-                    CONTEÚDOS QUE ALCANÇAM<br>
-                    + <span>23,4</span> MM DE PESSOAS MÊS
-                </p>
-                <div class="col-xs-12 hidden-xs">
-                    <img class="img-responsive icone" src="<?= base_url(); ?>assets/images/icones.png" alt="Icones">
+                        do ano passado.</span>
+                    </p>
+                    <p class="txt-2">
+                        E “CORRIDA VIRTUAL”<br>
+                        é um dos termos mais<br>
+                        buscados na internet.
+                    </p>
+                    <small>
+                        * Fonte: Porta Radar
+                    </small>
                 </div>
-                <div class="col-xs-12 visible-xs">
-                    <img class="img-responsive icone" src="<?= base_url(); ?>assets/images/icones-mobile.png" alt="Icones">
+                <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5 box-2">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-4.png" alt="Corrida Cartoon">
                 </div>
-                <p class="txt-03">
-                    NAS REDES SOCIAIS<br>
-                    O SUCESSO É IGUAL!<br>
-                    + DE <span>638</span> MIL INTERAÇÕES/MÊS<sup>**</sup><br>
-                    + DE <span>2,4</span> MM DE VIEWS<sup>**</sup>
-                </p>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7 padding-off">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-9.png" alt="Corrida Cartoon">
             </div>
         </div>
     </div>
 </div>
 
-<div class="curtiu">
-    <div class="container-fluid box-1">
+<div class="favorito">
+    <div class="container">
         <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5 padding-off">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-10.png" alt="Corrida Cartoon">
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-7 padding-off">
-                <p>
-                    <span>CURTIU?</span><br>
-                    ESTÁ PRONTO<br>
-                    PARA CONECTAR<br>
-                    SUA MARCA COM<br>
-                    O BRASIL TODO?
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid box-2">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <p>
-                    FALE COM NOSSOS EXECUTIVOS<br>
-                    E CONHEÇA OS DETALHES DO PROJETO COMERCIAL
-                </p>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 box-1">
+
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 box-2">
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+
+
+
+
+
+
 
 <div class="container contato">
     <div class="row">
@@ -279,27 +223,6 @@
                 </figure>
             </div>
         </div>
-        <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
-            <form method="post" role="form" action="<?php echo base_url("contato") ?>">
-                <div class="group-form">
-                    <div class="col-xs-12 col-sm-6 col-md-6 form-group">
-                        <input id="nome" type="text" class="nome form-control" name="nome" required="required" placeholder="Nome*" />
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 form-group">
-                        <input id="empresa" type="text" class="empresa form-control" name="empresa" placeholder="Agência/Empresa" />
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 form-group">
-                        <input id="email" type="email" class="email form-control" name="email" required="required" placeholder="Email*" />
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 form-group">
-                        <input id="telefone" class="phone form-control" type="tel" name="phone" placeholder="Telefone" />
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                        <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar">Enviar</button>
-                    </div>
-                </div>
-            </form>
-        </div> -->
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div id="cookies" class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 cookies">
                 <div class="col-xs-12 col-sm-9 col-md-9">
@@ -339,8 +262,3 @@
         </div>
     </div>
 </footer>
-
-<?php
-if (isset($email_enviado))
-    echo $email_enviado;
-?>

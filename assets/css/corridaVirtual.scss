@@ -1,0 +1,81 @@
+.corridaVirtual {
+    padding-top: 200px;
+    padding-bottom: 40px;
+    background: rgba(244, 232, 0, 1);
+    background: -moz-linear-gradient(45deg, rgba(244, 232, 0, 1) 0%, rgba(244, 232, 0, 1) 50%, rgba(244, 232, 0, 1) 50%, rgba(223, 0, 85, 1) 50%, rgba(223, 0, 85, 1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(244, 232, 0, 1)), color-stop(50%, rgba(244, 232, 0, 1)), color-stop(50%, rgba(244, 232, 0, 1)), color-stop(50%, rgba(223, 0, 85, 1)), color-stop(100%, rgba(223, 0, 85, 1)));
+    background: -webkit-linear-gradient(45deg, rgba(244, 232, 0, 1) 0%, rgba(244, 232, 0, 1) 50%, rgba(244, 232, 0, 1) 50%, rgba(223, 0, 85, 1) 50%, rgba(223, 0, 85, 1) 100%);
+    background: -o-linear-gradient(45deg, rgba(244, 232, 0, 1) 0%, rgba(244, 232, 0, 1) 50%, rgba(244, 232, 0, 1) 50%, rgba(223, 0, 85, 1) 50%, rgba(223, 0, 85, 1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(244, 232, 0, 1) 0%, rgba(244, 232, 0, 1) 50%, rgba(244, 232, 0, 1) 50%, rgba(223, 0, 85, 1) 50%, rgba(223, 0, 85, 1) 100%);
+    background: linear-gradient(20deg, rgba(244, 232, 0, 1) 0%, rgba(244, 232, 0, 1) 50%, rgba(244, 232, 0, 1) 50%, rgba(223, 0, 85, 1) 50%, rgba(223, 0, 85, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4e800', endColorstr='#df0055', GradientType=1);
+
+    .box-1 {
+        margin-top: 200px;
+        p {
+            font-family: 'VAG Rounded Std';
+            font-weight: 900;
+            font-style: normal;
+            text-transform: uppercase;
+            font-size: 40px;
+            line-height: 45px;
+            color: #df0054;
+
+            span {
+                color: #554c9b;
+            }
+        }
+        .txt-2 {
+            margin-top: 30px;
+        }
+
+        small {
+            font-family: 'Helvetica Neue LT Std';
+            font-weight: 300;
+            font-style: normal;
+            font-size: 15px;
+            line-height: 20px;
+            color: #000;
+            text-transform: inherit;
+            margin-top: 20px;
+        }
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .corridaVirtual {
+        background: linear-gradient(90deg, rgba(244, 232, 0, 1) 0%, rgba(244, 232, 0, 1) 50%, rgba(244, 232, 0, 1) 50%, rgba(223, 0, 85, 1) 50%, rgba(223, 0, 85, 1) 100%);
+        padding-top: 20px;
+        padding-bottom: 20px;
+ 
+        .box-1 {
+            margin-top: 0px;
+            p {
+                font-size: 14px;
+                line-height: 16px;
+            }
+            .txt-2 {
+                margin-top: 10px;
+            }
+    
+            small {
+                font-size: 10px;
+                line-height: 15px;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {
+    .corridaVirtual {
+        background: linear-gradient(90deg, rgba(244, 232, 0, 1) 0%, rgba(244, 232, 0, 1) 50%, rgba(244, 232, 0, 1) 50%, rgba(223, 0, 85, 1) 50%, rgba(223, 0, 85, 1) 100%);
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}

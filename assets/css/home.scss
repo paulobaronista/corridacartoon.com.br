@@ -1,70 +1,32 @@
 .home {
-    .logo {
-        background-color: #ff0059;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
+    padding-top: 30px;
+    padding-bottom: 25px;
+    background: rgba(244, 230, 0, 1);
+    background: -moz-linear-gradient(-45deg, rgba(244, 230, 0, 1) 0%, rgba(244, 230, 0, 1) 50%, rgba(85, 76, 155, 1) 50%, rgba(85, 76, 155, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(244, 230, 0, 1)), color-stop(50%, rgba(244, 230, 0, 1)), color-stop(50%, rgba(85, 76, 155, 1)), color-stop(100%, rgba(85, 76, 155, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(244, 230, 0, 1) 0%, rgba(244, 230, 0, 1) 50%, rgba(85, 76, 155, 1) 50%, rgba(85, 76, 155, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(244, 230, 0, 1) 0%, rgba(244, 230, 0, 1) 50%, rgba(85, 76, 155, 1) 50%, rgba(85, 76, 155, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(244, 230, 0, 1) 0%, rgba(244, 230, 0, 1) 50%, rgba(85, 76, 155, 1) 50%, rgba(85, 76, 155, 1) 100%);
+    background: linear-gradient(165deg, rgba(244, 230, 0, 1) 0%, rgba(244, 230, 0, 1) 50%, rgba(85, 76, 155, 1) 50%, rgba(85, 76, 155, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4e600', endColorstr='#554c9b', GradientType=1);
 
-    .a-corrida {
-        background-color: #554c9b;
-
-        .box-2 {
-
-            p {
-                font-family: 'VAG Rounded Std';
-                font-weight: 900;
-                font-style: normal;
-                color: #f9e700;
-                font-size: 60px;
-                line-height: 65px;
-                padding-top: 7%;
-                padding-left: 50px;
-                letter-spacing: 1px;
-
-                span {
-                    color: #6fc9ea;
-                }
-            }
-        }
-    }
-
-    .video {
-        background-color: #6fc9ea;
-        padding-top: 50px;
-        padding-bottom: 60px;
-
-        p {
-            font-family: 'VAG Rounded Std';
-            font-weight: 900;
-            font-style: normal;
+    p {
+        font-family: 'VAG Rounded Std';
+        font-weight: 900;
+        font-style: normal;
+        color: #df0054;
+        text-transform: uppercase;
+        font-size: 45px;
+        line-height: 55px;
+        margin-top: 40px;
+        span {
             color: #554c9b;
-            font-size: 45px;
-            line-height: 50px;
-            margin-bottom: 5px;
-        }
-
-        video {
-            margin-top: 30px;
         }
     }
-
-    .digital {
-        background-color: #ff0059;
-
-        p {
-            font-family: 'VAG Rounded Std';
-            font-weight: 900;
-            font-style: normal;
-            color: #f9e700;
-            font-size: 50px;
-            line-height: 55px;
-            padding-top: 15%;
-            letter-spacing: 1px;
-            padding-left: 7%;
-
-            span {
-                color: #6fc9ea;
-            }
+    .video {
+        margin-top: 40px;
+        video {
+            background-color: #000;
         }
     }
 }
@@ -72,118 +34,25 @@
 /* Extra Small */
 @media(max-width:767px) {
     .home {
-        .logo {
-            padding-top: 10px;
-            padding-bottom: 10px;
-
-            img {
-                max-width: 50%;
-            }
+        padding-top: 15px;
+        padding-bottom: 20px;
+        img {
+            max-width: 60%;
         }
-
-        .a-corrida {
-            .box-2 {
-                p {
-                    font-size: 15px;
-                    line-height: 20px;
-                    padding-top: 13%;
-                    padding-left: 15px;
-                }
-            }
+        p {
+            font-size: 19px;
+            line-height: 27px;
+            margin-top: 15px;
         }
-
         .video {
-            padding-top: 20px;
-            padding-bottom: 10px;
-
-            p {
-                font-size: 18px;
-                line-height: 23px;
-                margin-bottom: 3px;
-            }
-
-            video {
-                margin-top: 10px;
-            }
-        }
-
-        .digital {
-
-            p {
-                font-size: 12px;
-                line-height: 14px;
-                padding-top: 14%;
-                padding-left: 7%;
-            }
+            margin-top: 10px;
         }
     }
 }
 
 
 /* Small */
-@media(min-width:768px) and (max-width:991px) {
-    .home {
-        .a-corrida {
-            .box-2 {
-                p {
-                    font-size: 35px;
-                    line-height: 40px;
-                    padding-top: 15%;
-                }
-            }
-        }
-
-        .video {
-
-            p {
-                font-size: 35px;
-                line-height: 40px;
-            }
-
-        }
-        .digital {
-
-            p {
-                font-size: 23px;
-                line-height: 27px;
-                padding-top: 21%;
-                padding-left: 7%;
-            }
-        }
-    }
-}
-
+@media(min-width:768px) and (max-width:991px) {}
 
 /* Medium */
-@media(min-width:992px) and (max-width:1199px) {
-    .home {
-        .a-corrida {
-            .box-2 {
-                p {
-                    font-size: 50px;
-                    line-height: 55px;
-                    padding-top: 7%;
-                }
-            }
-        }
-
-        .video {
-
-            p {
-                font-size: 35px;
-                line-height: 40px;
-            }
-
-        }
-
-        .digital {
-
-            p {
-                font-size: 33px;
-                line-height: 38px;
-                padding-top: 21%;
-                padding-left: 7%;
-            }
-        }
-    }
-}
+@media(min-width:992px) and (max-width:1199px) {}

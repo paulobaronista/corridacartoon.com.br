@@ -1,0 +1,79 @@
+.corridaVirtual {
+  padding-top: 200px;
+  padding-bottom: 40px;
+  background: #f4e800;
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, #f4e800), color-stop(50%, #f4e800), color-stop(50%, #f4e800), color-stop(50%, #df0055), color-stop(100%, #df0055));
+  background: linear-gradient(20deg, #f4e800 0%, #f4e800 50%, #f4e800 50%, #df0055 50%, #df0055 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4e800', endColorstr='#df0055', GradientType=1);
+}
+
+.corridaVirtual .box-1 {
+  margin-top: 200px;
+}
+
+.corridaVirtual .box-1 p {
+  font-family: 'VAG Rounded Std';
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 45px;
+  color: #df0054;
+}
+
+.corridaVirtual .box-1 p span {
+  color: #554c9b;
+}
+
+.corridaVirtual .box-1 .txt-2 {
+  margin-top: 30px;
+}
+
+.corridaVirtual .box-1 small {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000;
+  text-transform: inherit;
+  margin-top: 20px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .corridaVirtual {
+    background: -webkit-gradient(linear, left top, right top, from(#f4e800), color-stop(50%, #f4e800), color-stop(50%, #f4e800), color-stop(50%, #df0055), to(#df0055));
+    background: linear-gradient(90deg, #f4e800 0%, #f4e800 50%, #f4e800 50%, #df0055 50%, #df0055 100%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .corridaVirtual .box-1 {
+    margin-top: 0px;
+  }
+  .corridaVirtual .box-1 p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .corridaVirtual .box-1 .txt-2 {
+    margin-top: 10px;
+  }
+  .corridaVirtual .box-1 small {
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: 20px;
+  }
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  .corridaVirtual {
+    background: -webkit-gradient(linear, left top, right top, from(#f4e800), color-stop(50%, #f4e800), color-stop(50%, #f4e800), color-stop(50%, #df0055), to(#df0055));
+    background: linear-gradient(90deg, #f4e800 0%, #f4e800 50%, #f4e800 50%, #df0055 50%, #df0055 100%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+/* Medium */
+/*# sourceMappingURL=corridaVirtual.css.map */
