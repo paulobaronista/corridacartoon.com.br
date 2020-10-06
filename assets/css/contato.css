@@ -1,6 +1,21 @@
 .contato {
   padding-bottom: 40px;
-  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.contato .tt {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.contato .tt p {
+  font-family: 'VAG Rounded Std';
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ff0059;
+  font-size: 35px;
+  line-height: 45px;
 }
 
 .contato .mail-to {
@@ -195,8 +210,16 @@ footer .navbar-nav li:last-child a {
 /* Extra Small */
 @media (max-width: 767px) {
   .contato {
-    margin-top: 20px;
+    padding-top: 20px;
     padding-bottom: 10px;
+  }
+  .contato .tt {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .contato .tt p {
+    font-size: 20px;
+    line-height: 25px;
   }
   .contato .mail-to a {
     font-size: 25px;

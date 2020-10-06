@@ -1,0 +1,52 @@
+.curtiu {
+    background: url(../images/dt-6.png) no-repeat #554c9b;
+    background-position: top right;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .box-2 {
+        margin-top: 115px;
+
+        p {
+            font-family: 'VAG Rounded Std';
+            font-weight: 900;
+            font-style: normal;
+            text-transform: uppercase;
+            color: #f4e600;
+            font-size: 45px;
+            line-height: 55px;
+            padding-left: 30px;
+
+            span {
+                color: #6fc9ea;
+            }
+        }
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .curtiu {
+        background: url(../images/dt-6.png) no-repeat #554c9b;
+        background-position: top right;
+        background-size: 20%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        .box-2 {
+            margin-top: 40px;
+
+            p {
+                font-size: 20px;
+                line-height: 25px;
+                padding-left: 0px;
+            }
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}

@@ -1,0 +1,94 @@
+.somosMarca {
+  background-color: #df0054;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.somosMarca .box-1 {
+  background: url(../images/dt-5.png) no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding-top: 230px;
+  padding-bottom: 230px;
+}
+
+.somosMarca .box-1 p {
+  font-family: 'VAG Rounded Std';
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #554c9b;
+  font-size: 40px;
+  line-height: 55px;
+  padding-left: 30px;
+}
+
+.somosMarca .box-1 p span {
+  color: #e50058;
+}
+
+.somosMarca .box-2 {
+  margin-top: 100px;
+}
+
+.somosMarca .box-2 .dt-3 {
+  margin-top: 60px;
+  float: right;
+}
+
+.somosMarca .box-2 .redes {
+  margin-top: 80px;
+}
+
+.somosMarca .box-2 p {
+  font-family: 'VAG Rounded Std';
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 35px;
+  line-height: 50px;
+  color: #f2e500;
+  margin-top: -40px;
+  padding-left: 50px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .somosMarca {
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+  .somosMarca .box-1 {
+    background: url(../images/dt-5.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 95px;
+    padding-bottom: 95px;
+  }
+  .somosMarca .box-1 p {
+    font-size: 15px;
+    line-height: 20px;
+    padding-left: 0px;
+  }
+  .somosMarca .box-2 {
+    margin-top: 30px;
+  }
+  .somosMarca .box-2 .dt-3 {
+    margin-top: 0px;
+    float: right;
+    max-width: 50%;
+  }
+  .somosMarca .box-2 .redes {
+    margin-top: 30px;
+  }
+  .somosMarca .box-2 p {
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: -20px;
+    padding-left: 0px;
+  }
+}
+
+/* Small */
+/* Medium */
+/*# sourceMappingURL=somosMarca.css.map */

@@ -1,9 +1,8 @@
 .corridaVirtual {
-  padding-top: 200px;
-  padding-bottom: 40px;
+  padding-top: 192px;
   background: #f4e800;
   background: -webkit-gradient(left bottom, right top, color-stop(0%, #f4e800), color-stop(50%, #f4e800), color-stop(50%, #f4e800), color-stop(50%, #df0055), color-stop(100%, #df0055));
-  background: linear-gradient(20deg, #f4e800 0%, #f4e800 50%, #f4e800 50%, #df0055 50%, #df0055 100%);
+  background: linear-gradient(19deg, #f4e800 0%, #f4e800 50%, #f4e800 50%, #df0055 50%, #df0055 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4e800', endColorstr='#df0055', GradientType=1);
 }
 
@@ -40,13 +39,45 @@
   margin-top: 20px;
 }
 
+.bg-01 {
+  width: 100%;
+  height: 140px;
+  background: #f4e800;
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #f4e800), color-stop(50%, #f4e800), color-stop(50%, #f4e800), color-stop(50%, #df0055), color-stop(100%, #df0055));
+  background: linear-gradient(175deg, #f4e800 0%, #f4e800 50%, #f4e800 50%, #df0055 50%, #df0055 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4e800', endColorstr='#df0055', GradientType=1);
+}
+
+.favorito {
+  background-color: #df0054;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.favorito .box-1 img {
+  margin-top: 60px;
+}
+
+.favorito .box-2 p {
+  font-family: 'VAG Rounded Std';
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 35px;
+  line-height: 45px;
+  color: #f4e600;
+}
+
+.favorito .box-2 p span {
+  color: #6fc9ea;
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   .corridaVirtual {
     background: -webkit-gradient(linear, left top, right top, from(#f4e800), color-stop(50%, #f4e800), color-stop(50%, #f4e800), color-stop(50%, #df0055), to(#df0055));
     background: linear-gradient(90deg, #f4e800 0%, #f4e800 50%, #f4e800 50%, #df0055 50%, #df0055 100%);
     padding-top: 20px;
-    padding-bottom: 20px;
   }
   .corridaVirtual .box-1 {
     margin-top: 0px;
@@ -62,6 +93,25 @@
     font-size: 10px;
     line-height: 15px;
     margin-top: 20px;
+  }
+  .bg-01 {
+    height: 40px;
+  }
+  .favorito {
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+  .favorito .box-1 img {
+    max-width: 40%;
+    margin-top: 10px;
+  }
+  .favorito .box-2 {
+    margin-top: 20px;
+  }
+  .favorito .box-2 p {
+    font-size: 23px;
+    line-height: 28px;
+    text-align: center;
   }
 }
 

@@ -157,11 +157,11 @@
                     <p>
                         Devido ao<br>
                         isol amento social,<br>
-                      <span>a busca por eventos<br>
-                        digitais aumentou<br>
-                        + 1100%, se comparada<br>
-                        ao mesmo período<br>
-                        do ano passado.</span>
+                        <span>a busca por eventos<br>
+                            digitais aumentou<br>
+                            + 1100%, se comparada<br>
+                            ao mesmo período<br>
+                            do ano passado.</span>
                     </p>
                     <p class="txt-2">
                         E “CORRIDA VIRTUAL”<br>
@@ -180,29 +180,104 @@
     </div>
 </div>
 
+<div class="bg-01"></div>
+
 <div class="favorito">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 box-1">
-
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 box-1">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/dt-4.png" alt="Corrida Cartoon">
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 box-2">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 box-2">
+                    <p>
+                        AH SÓ PARA LEMBRAR:<br>
+                        É O CANAL FAVORITO<br>
+                        DAS CRIANÇAS HÁ 7 ANOS<br>
+                        CONSECUTIVOS*<br>
+                        <span>E O CANAL DE PAYTV +<br>
+                            ASSISTIDO PELAS<br>
+                            CRIANÇAS E PELOS<br>
+                            ADOLESCENTES**</span>
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
+<div class="somosMarca">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 box-1">
+                    <p>
+                        SOMOS<br>
+                        UMA MARCA<br>
+                        MULTIPLATAFORMA<br>
+                        COM EXPERIÊNCIAS<br>
+                        ÚNICAS PARA<br>
+                        TODOS OS FÃS.<br>
+                        <span>Alcança<br>
+                            mensalmente<br>
+                            mais de 23.4MM<br>
+                            de pessoas</span>
+                    </p>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 box-2">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
+                        <img class="img-responsive dt-3" src="<?= base_url(); ?>assets/images/dt-3.png" alt="Corrida Cartoon">
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
+                        <p>
+                            NAS REDES<br>
+                            SOCIAIS<br>
+                            O SUCESSO<br>
+                            É IGUAL!<br>
+                            + DE 638 MIL<br>
+                            INTERAÇÕES/MÊS**<br>
+                            + DE 2,4 MM<br>
+                            DE VIEWS**
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
+                        <img class="img-responsive center-block redes" src="<?= base_url(); ?>assets/images/redes.png" alt="Corrida Cartoon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-
-
-
-
-
+<div class="curtiu">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off">
+                <div class="col-xs-5 col-sm-6 col-md-6 col-lg-6 box-1">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-5.png" alt="Corrida Cartoon">
+                </div>
+                <div class="col-xs-7 col-sm-6 col-md-6 col-lg-6 box-2">
+                    <p>
+                        <span>CURTIU?</span><br>
+                        ESTÁ PRONTO<br>
+                        PARA CONECTAR<br>
+                        SUA MARCA COM<br>
+                        O BRASIL TODO?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="container contato">
     <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 tt">
+            <p>
+                FALE COM NOSSOS EXECUTIVOS<br>
+                E CONHEÇA OS DETALHES DO PROJETO COMERCIAL
+            </p>
+        </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-center mail-to">
             <a href="mailto:adsales.brasil@turner.com">adsales.brasil@turner.com</a>
         </div>

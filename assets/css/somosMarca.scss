@@ -1,8 +1,10 @@
-.paisFilhos {
+.somosMarca {
+    background-color: #df0054;
     padding-top: 40px;
+    padding-bottom: 50px;
 
     .box-1 {
-        background: url(../images/dt-2.png) no-repeat;
+        background: url(../images/dt-5.png) no-repeat;
         background-position: center;
         background-size: contain;
         padding-top: 230px;
@@ -14,7 +16,7 @@
             font-style: normal;
             text-transform: uppercase;
             color: #554c9b;
-            font-size: 45px;
+            font-size: 40px;
             line-height: 55px;
             padding-left: 30px;
 
@@ -25,13 +27,15 @@
     }
 
     .box-2 {
-        .cartoon-2 {
-            margin-top: 30px;
-        }
+        margin-top: 100px;
 
         .dt-3 {
             margin-top: 60px;
             float: right;
+        }
+
+        .redes {
+            margin-top: 80px;
         }
 
         p {
@@ -40,38 +44,36 @@
             font-style: normal;
             text-transform: uppercase;
             font-size: 35px;
-            line-height: 45px;
-            color: #e50058;
-            margin-top: -100px;
-            padding-left: 30px;
+            line-height: 50px;
+            color: #f2e500;
+            margin-top: -40px;
+            padding-left: 50px;
         }
     }
 }
 
 /* Extra Small */
 @media(max-width:767px) {
-    .paisFilhos {
-        padding-top: 20px;
+    .somosMarca {
+        padding-top: 0px;
         padding-bottom: 20px;
 
         .box-1 {
-            background: url(../images/dt-2.png) no-repeat;
+            background: url(../images/dt-5.png) no-repeat;
             background-position: center;
             background-size: cover;
-            padding-top: 75px;
-            padding-bottom: 75px;
+            padding-top: 95px;
+            padding-bottom: 95px;
 
             p {
-                font-size: 17px;
+                font-size: 15px;
                 line-height: 20px;
                 padding-left: 0px;
             }
         }
 
         .box-2 {
-            .cartoon-2 {
-                margin-top: 0px;
-            }
+            margin-top: 30px;
 
             .dt-3 {
                 margin-top: 0px;
@@ -79,9 +81,13 @@
                 max-width: 50%;
             }
 
+            .redes {
+                margin-top: 30px;
+            }
+
             p {
-                font-size: 14px;
-                line-height: 17px;
+                font-size: 16px;
+                line-height: 21px;
                 margin-top: -20px;
                 padding-left: 0px;
             }
