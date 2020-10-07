@@ -132,6 +132,11 @@ body {
   margin: 0 auto;
 }
 
+sup {
+  top: -0.7em;
+  font-size: 50%;
+}
+
 .padding-off {
   padding-left: 0px !important;
   padding-right: 0px !important;

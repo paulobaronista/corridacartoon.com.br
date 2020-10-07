@@ -161,16 +161,13 @@
                             digitais aumentou<br>
                             + 1100%, se comparada<br>
                             ao mesmo período<br>
-                            do ano passado.</span>
+                            do ano passado<sup>*</sup>.</span>
                     </p>
                     <p class="txt-2">
                         E “CORRIDA VIRTUAL”<br>
                         é um dos termos mais<br>
                         buscados na internet.
                     </p>
-                    <small>
-                        * Fonte: Porta Radar
-                    </small>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5 box-2">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cartoon-4.png" alt="Corrida Cartoon">
@@ -195,11 +192,11 @@
                         Cartoon Network<br>
                         É O CANAL FAVORITO<br>
                         DAS CRIANÇAS HÁ 7 ANOS<br>
-                        CONSECUTIVOS*<br>
+                        CONSECUTIVOS<sup>**</sup><br>
                         <span>E O CANAL mais<br>
                             ASSISTIDO da paytv<br>
                             PELAS CRIANÇAS<br>
-                            E PELOS ADOLESCENTES*</span>
+                            E PELOS ADOLESCENTES<sup>***</sup></span>
                     </p>
                 </div>
             </div>
@@ -223,7 +220,7 @@
                             mensalmente<br>
                             mais de 27.0<br>
                             milhões<br>
-                            de pessoas*</span>
+                            de pessoas<sup>****</sup></span>
                     </p>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 box-2">
@@ -237,9 +234,9 @@
                             o sucesso<br>
                             é igual:<br>
                             + de 1.1 milhões<br>
-                            de interações/mês*<br>
+                            de interações/mês<sup>*****</sup><br>
                             + de 3.1 milhões<br>
-                            de views*
+                            de views<sup>*****</sup>
                         </p>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
@@ -262,9 +259,9 @@
                     <p>
                         CURTIU?<br>
                         <span>ESTÁ PRONTO<br>
-                        PARA CONECTAR<br>
-                        SUA MARCA COM<br>
-                        O BRASIL TODO?</span>
+                            PARA CONECTAR<br>
+                            SUA MARCA COM<br>
+                            O BRASIL TODO?</span>
                     </p>
                 </div>
             </div>
@@ -327,14 +324,14 @@
                     <li><a href="<?php echo base_url(); ?>politicadecookies">Política de cookies</a></li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 text-center">
-                <p>* Fonte: Kantar IBOPE Media Brasil. 15 Mercados. Jan a Jun de 2014 a 2020. Base com TV Paga: Crianças 4 a 11 anos
-                    (3.209.100). ** Fontes: Kantar IBOPE Media Brasil. 15 Mercados. Jun’20. Cov%. Base TV Paga: Pessoas 4+ anos (26.344.500 /
-                    univ. proj.: 42.308.835).
-                    Considerando 15.2M de domicílios assinantes (Anatel – Mai’20) e 3,02 pessoas por domicílio ; Kantar
-                    IBOPE Media Brasil. 15 Mercados.
-                    Abr a Jun ‘20. Rat%. Bases com TV Paga: Crianças 4 a 11 anos (1.465.100) e Crianças 12 a 17 anos
-                    (2.460.800) ; Social Bakers. Jun’20</p>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
+                <p>
+                    *Portal Radar.
+                    **Kantar IBOPE Media Brasil. 15 Mercados. 2014 a 2020. Rat%. Crianças 4 a 11 anos (3.242.700).
+                    ***Kantar IBOPE Media Brasil. 15 Mercados. Jul a Set’20. Rat%. Bases com TV Paga: Crianças 4 a 11 anos (2.422.500) e Adolescentes 12 a 17 anos (1.995.700).
+                    ****Kantar IBOPE Media Brasil. 15 Mercados. Ago’20. Cov%. Base com TV Paga: Pessoas 4+ anos (26.344.500 / univ. proj.: ). Considerando 15.1M de domicílios assinantes (Anatel – Jul’20) e 3,02 pessoas por domíclio ; Social Bakers (Facebook e Instagram) ; Youtube Analytics ; Omniture (Web e Apps).
+                    *****Social Bakers. Set’20. Facebook, Instagram, Twitter e Youtube.
+                </p>
             </div>
         </div>
     </div>
