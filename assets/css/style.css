@@ -150,11 +150,6 @@ body {
   margin: 0 auto;
 }
 
-sup {
-  top: -0.7em;
-  font-size: 50%;
-}
-
 .padding-off {
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -172,6 +167,71 @@ p {
 .row-off-margin {
   margin-left: 0px;
   margin-right: 0px;
+}
+
+.simple {
+  max-width: 100% !important;
+  padding: 0.6rem 3rem 1rem !important;
+  bottom: 10px !important;
+}
+
+.simple .cc_dialog_headline {
+  font-size: 18px !important;
+  line-height: 18px !important;
+  margin-bottom: 5px !important;
+}
+
+.simple .cc_dialog_text {
+  font-size: 13px !important;
+  line-height: 15px !important;
+  margin-bottom: 5px !important;
+}
+
+.simple button {
+  font-size: 11px !important;
+}
+
+.cc_cp_head {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cc_cp_head_lang_selector {
+  display: none !important;
+}
+
+.cc_cp_head_lang_selector select {
+  display: none !important;
+}
+
+.cc_b_ok {
+  background: #EC2C27 !important;
+}
+
+.cc_cp_m_content_entry h1 {
+  font-size: 20px !important;
+}
+
+.cc_cp_m_content_entry p {
+  font-size: 14px !important;
+  line-height: 1.2 !important;
+}
+
+.cc_cp_f_save button {
+  font-size: 12px !important;
+  background: #EC2C27 !important;
+}
+
+.cc_cp_m_menu li a {
+  line-height: 15px !important;
+}
+
+.cc_cp_f_powered_by,
+.cc_cp_f_powered_by a {
+  color: transparent !important;
+  pointer-events: none !important;
+  display: none !important;
+  text-indent: -9999px !important;
 }
 
 .aviso {
@@ -407,11 +467,12 @@ p {
 /* Medium */
 .paisFilhos {
   padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 .paisFilhos .box-1 {
   background: url(../images/dt-2.png) no-repeat;
-  background-position: center;
+  background-position: center left;
   background-size: contain;
   padding-top: 230px;
   padding-bottom: 230px;
@@ -679,7 +740,7 @@ p {
 
 .somosMarca .box-1 {
   background: url(../images/dt-5.png) no-repeat;
-  background-position: center;
+  background-position: center left;
   background-size: contain;
   padding-top: 230px;
   padding-bottom: 230px;
@@ -1106,4 +1167,37 @@ footer .navbar-nav li:last-child a {
 /* Small */
 /* Medium */
 /* Large */
+.modal {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal .close {
+  text-shadow: none;
+  opacity: 1;
+  position: absolute;
+  right: 10px;
+  top: -25px;
+  z-index: 999;
+  color: #fff;
+  font-size: 35px;
+  line-height: 35px;
+}
+
+.modal .modal-content {
+  background-color: transparent;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .modal .modal-dialog {
+    margin: 15% auto 0;
+  }
+}
+
+/* Small */
+/* Medium */
 /*# sourceMappingURL=style.css.map */

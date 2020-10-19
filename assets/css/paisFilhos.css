@@ -1,10 +1,11 @@
 .paisFilhos {
   padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 .paisFilhos .box-1 {
   background: url(../images/dt-2.png) no-repeat;
-  background-position: center;
+  background-position: center left;
   background-size: contain;
   padding-top: 230px;
   padding-bottom: 230px;

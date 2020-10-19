@@ -132,11 +132,6 @@ body {
   margin: 0 auto;
 }
 
-sup {
-  top: -0.7em;
-  font-size: 50%;
-}
-
 .padding-off {
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -154,6 +149,71 @@ p {
 .row-off-margin {
   margin-left: 0px;
   margin-right: 0px;
+}
+
+.simple {
+  max-width: 100% !important;
+  padding: 0.6rem 3rem 1rem !important;
+  bottom: 10px !important;
+}
+
+.simple .cc_dialog_headline {
+  font-size: 18px !important;
+  line-height: 18px !important;
+  margin-bottom: 5px !important;
+}
+
+.simple .cc_dialog_text {
+  font-size: 13px !important;
+  line-height: 15px !important;
+  margin-bottom: 5px !important;
+}
+
+.simple button {
+  font-size: 11px !important;
+}
+
+.cc_cp_head {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cc_cp_head_lang_selector {
+  display: none !important;
+}
+
+.cc_cp_head_lang_selector select {
+  display: none !important;
+}
+
+.cc_b_ok {
+  background: #EC2C27 !important;
+}
+
+.cc_cp_m_content_entry h1 {
+  font-size: 20px !important;
+}
+
+.cc_cp_m_content_entry p {
+  font-size: 14px !important;
+  line-height: 1.2 !important;
+}
+
+.cc_cp_f_save button {
+  font-size: 12px !important;
+  background: #EC2C27 !important;
+}
+
+.cc_cp_m_menu li a {
+  line-height: 15px !important;
+}
+
+.cc_cp_f_powered_by,
+.cc_cp_f_powered_by a {
+  color: transparent !important;
+  pointer-events: none !important;
+  display: none !important;
+  text-indent: -9999px !important;
 }
 
 .aviso {

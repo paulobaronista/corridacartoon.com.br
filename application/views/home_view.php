@@ -86,9 +86,9 @@
 </div>
 
 <div class="paisFilhos">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 box-1">
                     <p>
                         PAIS<br>
@@ -205,9 +205,9 @@
 </div>
 
 <div class="somosMarca">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 box-1">
                     <p>
                         SOMOS<br>
@@ -297,7 +297,7 @@
                 </figure>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-12">
+        <!-- <div class="col-xs-12 col-sm-12 col-md-12">
             <div id="cookies" class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 cookies">
                 <div class="col-xs-12 col-sm-9 col-md-9">
                     <p>
@@ -308,7 +308,7 @@
                     <a href="#" class="btn_cookie btn center-block">Aceito</a>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 logo-footer">
             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logos.png" alt="Logos">
         </div>
@@ -322,6 +322,7 @@
                 <ul class="nav navbar-nav">
                     <li><a href="<?php echo base_url(); ?>politicadeprivacidade">Política de privacidade</a></li>
                     <li><a href="<?php echo base_url(); ?>politicadecookies">Política de cookies</a></li>
+                    <!-- <li><a href="#" id="altereCookies">Preferências de cookies</a></li> -->
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
