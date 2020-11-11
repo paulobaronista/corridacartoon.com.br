@@ -160,24 +160,6 @@
             </div>
         </div>
     </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <div id="cookies" class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 cookies">
-                    <div class="col-xs-12 col-sm-9 col-md-9">
-                        <p>
-                            Usamos cookies para garantir que obtenha sempre a melhor experiência ao visitar o nosso website, para medir a utilização e o desempenho, bem como apresentar anúncios. Ao clicar em “Aceito”, concorda com as nossas configurações padrão.
-                        </p>
-                    </div>
-                    <div class="col-xs-12 col-sm-3 col-md-3">
-                        <a href="#" class="btn_cookie btn center-block">Aceito</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
 </div>
 
 <footer>
@@ -192,11 +174,26 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 text-center">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus neque hic
-                    corporis porro, nihil harum alias consectetur iste corrupti temporibus odio,
-                    commodi velit minus, aperiam soluta. Veniam perspiciatis aut culpa.
+                    *Portal Radar.
+                    **Kantar IBOPE Media Brasil. 15 Mercados. 2014 a 2020. Rat%. Crianças 4 a 11 anos (3.242.700).
+                    ***Kantar IBOPE Media Brasil. 15 Mercados. Jul a Set’20. Rat%. Bases com TV Paga: Crianças 4 a 11 anos (2.422.500) e Adolescentes 12 a 17 anos (1.995.700).
+                    ****Kantar IBOPE Media Brasil. 15 Mercados. Ago’20. Cov%. Base com TV Paga: Pessoas 4+ anos (26.344.500 / univ. proj.: ). Considerando 15.1M de domicílios assinantes (Anatel – Jul’20) e 3,02 pessoas por domíclio ; Social Bakers (Facebook e Instagram) ; Youtube Analytics ; Omniture (Web e Apps).
+                    *****Social Bakers. Set’20. Facebook, Instagram, Twitter e Youtube.
                 </p>
             </div>
         </div>
     </div>
 </footer>
+
+<div id="cookies" class="cookies">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 box">
+        <div class="col-xs-12 col-sm-9 col-md-9">
+            <p>
+                Usamos cookies para garantir que obtenha sempre a melhor experiência ao visitar o nosso website, para medir a utilização e o desempenho, bem como apresentar anúncios. Ao clicar em “Aceito”, concorda com as nossas configurações padrão.
+            </p>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3">
+            <a href="#" class="btn_cookie btn center-block">Aceito</a>
+        </div>
+    </div>
+</div>
